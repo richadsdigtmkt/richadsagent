@@ -1,0 +1,50 @@
+name: Novedades diarias del sector
+
+# Se ejecuta cada dia a las 7:00 hora de Madrid.
+# GitHub Actions usa UTC. Madrid es UTC+2 en verano (CEST) y UTC+1 en invierno (CET).
+# Ponemos DOS horarios cron para cubrir ambos casos y el script filtra por ventana
+# de 26h, asi que aunque en una transicion se ejecute dos veces, no duplica contenido
+# del mismo dia (last-write-wins sobre el fichero del dia).
+#   - 05:00 UTC = 7:00 Madrid en verano (CEST)
+#   - 06:00 UTC = 7:00 Madrid en invierno (CET)
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # permite lanzarlo a mano desde la pestana Actions
+
+permissions:
+  contents: write  # necesario para que el bot pueda hacer commit
+
+jobs:
+  ingesta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar ingesta de novedades
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/ingest_news.py
+
+      - name: Commit de las novedades nuevas
+        run: |
+          git config user.name "richads-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add conocimiento/novedades/
+          if git diff --staged --quiet; then
+            echo "Sin cambios que commitear."
+          else
+            git commit -m "Novedades del sector: $(date -u +%Y-%m-%d)"
+            git push
+          fi
