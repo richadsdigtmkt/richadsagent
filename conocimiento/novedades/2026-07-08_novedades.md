@@ -13,45 +13,45 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google Search Console integra métricas de rendimiento de contenido social (Instagram, TikTok, X, YouTube) en reportes de Performance e Insights
+### Google Search Console ahora reporta rendimiento de contenido de Instagram, TikTok, X y YouTube dentro de Google Search
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-07 09:00)  
-- **Implicacion:** Revisar Search Console para acceder a datos de tráfico desde redes sociales sin necesidad de herramientas externas. Útil para auditar visibilidad cross-channel, pero los datos son de Google Search, no del rendimiento nativo en redes. No afecta flujos SEO/SEA operativos existentes.  
+- **Implicacion:** Revisar Performance e Insights reports en GSC para monitorizar cómo el contenido social/video indexado aparece en resultados de búsqueda. Útil para entender cross-channel visibility, pero no cambia estrategia SEO core. Verificar si tus clientes con presencia social ven datos relevantes en sus reports.  
 - **Enlace:** https://www.seroundtable.com/google-search-console-social-content-performance-41636.html  
 
-### Google añade soporta para Product.category y Sale duration en schema de Merchant Listings
-- **Area:** SEO  
+### Google añade Product.category y Sale duration al schema de Merchant Listing
+- **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-07 07:51)  
-- **Implicacion:** Revisar e implementar Product.category y Sale duration en structured data de fichas de producto (Merchant Listings) para mejorar visibilidad en resultados. Requiere actualización de schema.org en templates de producto.  
+- **Implicacion:** Revisar implementación de structured data en product feeds: validar que category esté correctamente mapeado en el schema y evaluar si usar Sale duration para campañas estacionales/promocionales. Impacto principalmente en Google Shopping y resultados enriquecidos.  
 - **Enlace:** https://www.seroundtable.com/google-product-category-sale-duration-merchant-listing-41637.html  
 
 ### Google Ads añade opción 'Apply theme to asset group' en Performance Max para aplicar temas visuales automáticos a grupos de assets
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-07 07:41)  
-- **Implicacion:** Evaluar si usar esta feature para acelerar creación de variantes de assets en Performance Max. Requiere testing A/B para medir impacto en CTR/conversión respecto a assets sin tema aplicado. Impacto bajo si ya se usan feeds de assets bien estructurados.  
+- **Implicacion:** Evaluar si usar esta opción acelera la creación de variantes visuales en Performance Max o si requiere validación manual previa. Verificar si mejora o empeora el control sobre consistencia de marca vs automatización.  
 - **Enlace:** https://www.seroundtable.com/google-ads-apply-theme-to-asset-group-41629.html  
 
-### Google prueba botón 'Visit site' destacado en anuncios de Google Ads en SERPs
+### Google prueba botón 'Visit site' destacado en anuncios de Google Ads dentro SERPs
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-07 07:31)  
-- **Implicacion:** Monitorizar CTR y comportamiento de usuarios en testing. Posible impacto en métricas de engagement si se generaliza. Revisar landing page experience si el botón aumenta tráfico de baja intención. Sin cambios obligatorios en configuración de campañas por ahora.  
+- **Implicacion:** Monitorear cambios en CTR y posicionamiento visual del anuncio. Posible impacto en métricas de engagement si el botón se implementa; revisar si afecta a la visibilidad de extensiones o llamadas a acción existentes. Sin cambios operativos inmediatos (es test).  
 - **Enlace:** https://www.seroundtable.com/google-visit-site-button-sponsored-results-41628.html  
 
-### OpenAI habilita targeting por audiencias (listas de email/teléfono) en ChatGPT Ads
+### OpenAI activa targeting de audiencias en ChatGPT Ads mediante carga de listas (email/teléfono)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-07 07:11)  
-- **Implicacion:** Evaluar si ChatGPT Ads entra en estrategia de canales para clientes con datos de audiencia. Requiere testing de rendimiento vs. Google Ads / Meta para justificar inversión. No es prioritario si no hay brief específico de cliente en plataforma.  
+- **Implicacion:** Evaluar ChatGPT Ads como canal si gestionas clientes en DACH/España/UK. Requiere test de audiencias propias (CRM, lookalikes) y validación de ROI vs Google Ads / Meta. Sin documentación oficial aún, esperar claridad en implementación.  
 - **Enlace:** https://www.seroundtable.com/audiences-chatgpt-ads-41638.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones de foros de búsqueda sin cambios concretos identificados
+### Recopilatorio diario de discusiones de foros de búsqueda sin detalles específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-07 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-07-07-2026-41639.html  
 
-### Google AdSense añade opción para controlar contacto de expertos para asesoramiento personalizado
+### Google AdSense añade control de preferencias para contacto de expertos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-07 07:21)  
 - **Implicacion:** ninguna  
