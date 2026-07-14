@@ -13,68 +13,68 @@ Escaneo automatico de 5 fuentes. 10 entradas en las ultimas 26h, 1 de relevancia
 
 ## Relevancia alta
 
-### Google Ads cambia los estados de conversion tracking: nuevas categorías 'Misconfigured', 'Awaiting Conversions' y 'Removed'
+### Google Ads introduce nuevos estados de conversion tracking: 'Misconfigured', 'Awaiting Conversions' y 'Removed' reemplazan estados anteriores
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:11)  
-- **Implicacion:** Revisar conversion actions en todas las cuentas para identificar configuraciones rotas (Misconfigured) y acciones nuevas sin datos (Awaiting Conversions). Requiere auditoría inmediata del tracking setup y validación de implementación de eventos.  
-- **Deja obsoleto:** Los estados antiguos 'Inactive', 'No recent conversions' y 'Other' quedan reemplazados; los criterios de diagnosis cambian.  
+- **Implicacion:** Revisar todas las conversion actions en cuentas activas para identificar misconfiguraciones y distinguir entre awaiting (sin datos aún) vs removed. Implementar monitoreo regular del conversion tracking status como parte de auditoría operativa mensual  
+- **Deja obsoleto:** Los estados anteriores 'Inactive', 'No recent conversions' y 'Other' quedan obsoletos. Las interpretaciones basadas en esa clasificación antigua ya no aplican  
 - **Enlace:** https://www.seroundtable.com/google-ads-conversion-tracking-status-updates-41668.html  
 
 ## Relevancia media
 
-### Google Ads lanza Video Campaign Groups para optimizar reach y frequency de forma coordinada entre campañas
+### Google Ads lanza Video Campaign Groups para gestionar reach y frequency a nivel de cartera manteniendo configuraciones individuales
 - **Area:** SEA  
 - **Fuente:** Google Ads & Commerce Blog (2026-07-13 16:00)  
-- **Implicacion:** Permite configurar targets de alcance y frecuencia a nivel de grupo de campañas de video manteniendo settings individuales. Requiere revisar estructura de campañas de video y evaluar si consolidar controles de reach/frequency a nivel de grupo mejora efficiency vs. gestión manual por campaña.  
-- **Deja obsoleto:** Reduce necesidad de configurar reach/frequency limits de forma individual y repetitiva en cada campaña de video  
+- **Implicacion:** Permite coordinar límites de alcance y frecuencia entre múltiples campañas de video sin perder flexibilidad de settings por campaña. Requiere revisión de estrategia de frequency capping si actualmente se gestiona por campaña aislada; potencial para optimizar presupuesto y evitar oversaturation cross-campaign.  
+- **Deja obsoleto:** Sustituye parcialmente el frequency capping individual por campaña como única opción de control; sigue siendo posible pero ahora hay alternativa de nivel superior.  
 - **Enlace:** https://blog.google/products/ads-commerce/video-campaign-groups/  
 
-### Google Ads email support temporalmente no funciona (error genérico al intentar contactar)
+### Email support en Google Ads presenta error técnico y no funciona
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-13 09:45)  
-- **Implicacion:** Si necesitas abrir ticket de soporte por email en Google Ads, usar chat en vivo o llamada como alternativa. Verificar si el problema persiste antes de escalar issues críticos.  
+- **Implicacion:** Usar canales alternativos para soporte (chat, phone support si está disponible). Documentar issues críticos por otros medios si el email está caído. Monitorear si Google lo resuelve en próximas horas.  
 - **Enlace:** https://www.seroundtable.com/google-ads-email-support-broke-41677.html  
 
-### Google Ads añade previsualizaciones de assets, personalizaciones de texto y expansión de URLs finales en la consola
+### Google Ads permite previsualizar anuncios filtrando por assets y ver ejemplos de customizaciones de texto y URL expansion directamente en la consola
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:41)  
-- **Implicacion:** Permite validar cómo renderiza Google tus anuncios (dynamic text, URL expansion) antes de lanzar, mejorando el control de quality assurance. Útil para detectar caracteres cortados o expansiones no deseadas en URLs sin necesidad de herramientas externas.  
+- **Implicacion:** Mejora en el workflow de QA de anuncios: antes era necesario usar herramientas externas o búsquedas en vivo para validar rendering de assets, customizaciones dinámicas y URL expansion. Ahora se integra nativamente. Revisar y estandarizar proceso de validación de anuncios antes de aprob final.  
+- **Deja obsoleto:** Uso de herramientas externas de preview de anuncios para validar asset rendering y text customization queda parcialmente obsoleto  
 - **Enlace:** https://www.seroundtable.com/google-ads-previews-updates-41666.html  
 
-### Bing confirma que aplica penalizaciones por spam a nivel algorítmico masivo, no caso a caso
+### Bing confirma que aplica penalizaciones algorítmicas a escala, no manuales por sitio individual
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:31)  
-- **Implicacion:** Para clientes con tráfico relevante desde Bing: validar que el sitio no incurra en patrones de spam detectables algorítmicamente (keyword stuffing, link schemes, cloaking) que Bing pueda escalar. No hay riesgo de penalización manual aislada, pero sí de castigo masivo si el patrón se generaliza en el índice.  
-- **Deja obsoleto:** Queda obsoleta la preocupación por penalizaciones manuales puntuales en Bing; el riesgo real es el algoritmo de spam a escala.  
+- **Implicacion:** En estrategias SEO para Bing: las prácticas de spam masivo serán detectadas y penalizadas algorítmicamente junto a miles de sitios similares, no de forma aislada. Relevante si tienes clientes con tráfico significativo desde Bing (mercados DACH y UK). No hay cambio de política, es clarificación del modus operandi existente.  
 - **Enlace:** https://www.seroundtable.com/bing-indexing-penalties-41670.html  
 
-### Google Business Profiles añade nueva sección 'Collected Info' para gestionar contenido visual generado por usuarios
+### Google Business Profiles introduce nueva sección 'Collected Info' para gestionar contenido visual generado por usuarios
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:05)  
-- **Implicacion:** Monitorizar el rollout de esta feature en GBP de clientes locales (DACH, España, UK). Si se activa, requiere revisar políticas de contenido visual y configurar moderación de imágenes en perfiles. Afecta principalmente a negócios con fuerte componente local/retail.  
+- **Implicacion:** Revisar y configurar la nueva sección Collected Info en GBP para controlar qué fotos/videos de usuarios aparecen. Requiere monitoreo activo para evitar contenido no deseado en el perfil.  
 - **Enlace:** https://www.seroundtable.com/google-business-profiles-new-collected-info-41672.html  
 
 ## Relevancia baja
 
-### Recopilatorio de discusiones del foro de búsqueda del 13 de julio de 2026
+### Recopilatorio diario de discusiones en foros de búsqueda sin detalles especificos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-13 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-07-13-2026-41673.html  
 
-### Posible volatilidad de rankings en Google Search el 11 de julio (no confirmado)
+### Posible actualización de ranking no confirmada de Google Search el 11 de julio (apodada '7-Eleven update')
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-13 09:25)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-search-ranking-volatility-july-11th-41676.html  
 
-### Google documenta oficialmente que las páginas canónicas deben incluir self-referential canonical
+### Google formaliza en documentación oficial que canonicals autorreferenciales son recomendadas
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:51)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-self-referential-canonical-41669.html  
 
-### Google ajusta diseño visual de anuncios sticky (bordes curvos, etiqueta más pequeña) - iteración de test previo
+### Google ajusta diseño de etiqueta de anuncios en resultados sticky (bordes curvos, label más pequeño)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-13 07:21)  
 - **Implicacion:** ninguna  
