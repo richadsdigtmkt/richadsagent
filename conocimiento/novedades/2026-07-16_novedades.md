@@ -13,46 +13,46 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google AI Overviews genera imágenes IA directamente en resultados de búsqueda
+### Google AI Overviews ahora genera imágenes AI directamente en los resultados de búsqueda
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:41)  
-- **Implicacion:** Monitorear si las AI Overviews con imágenes generadas desplazan resultados orgánicos visuales (Google Imágenes, product images). Revisar si afecta al CTR de featured snippets con contenido visual. Considerar ajuste de estrategia de contenido visual si se observa canibalización de tráfico.  
+- **Implicacion:** Monitorizar si las AI Overviews con imágenes generadas canibalizan CTR hacia enlaces orgánicos en verticales visuales (moda, diseño, decoración). Revisar data de impresiones vs clics en GSC. Considerar estrategia de contenido visual propio para competir en featured snippets mejorados.  
 - **Enlace:** https://www.seroundtable.com/google-ai-overviews-ai-images-41680.html  
 
-### ChatGPT Ads Manager añade exclusiones por geolocalización y audiencias
+### OpenAI añade exclusiones por ubicación y audiencia en ChatGPT Ads Manager
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:31)  
-- **Implicacion:** Evaluar si ChatGPT Ads es canal relevante para clientes DACH/Spain/UK. Si se usa, ahora permite segmentación negativa por ubicación y listas de audiencia, reduciendo gasto en tráfico irrelevante. Requiere auditoría de cuentas existentes para optimizar exclusiones.  
+- **Implicacion:** Evaluar si ChatGPT Ads Manager es canal relevante para clientes DACH/ES/UK. Si se usa: revisar estrategia de targeting y comparar capacidades de exclusión vs Google Ads/Meta. No es cambio urgente si no está activo en plataforma.  
 - **Enlace:** https://www.seroundtable.com/chatgpt-ads-location-audience-exclusion-41693.html  
 
-### Google prueba opción de ocultar/mostrar anuncios patrocinados en Google Shopping
+### Google prueba opción para ocultar/mostrar anuncios patrocinados en Google Shopping
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:21)  
-- **Implicacion:** Monitorizar si la feature se implementa a nivel global. Si se activa, los usuarios podrán filtrar resultados pagos en Shopping, reduciendo potencialmente visibilidad de anuncios. Revisar estrategia de puja y creative testing en categorías con alto volumen de búsqueda en Shopping.  
+- **Implicacion:** Monitorear visibilidad de anuncios Shopping si la feature se expande. Posible impacto en CTR y posicionamiento relativo de productos patrocinados vs orgánicos en Shopping. Preparar análisis de rendimiento por visibilidad si usuarios pueden filtrar anuncios.  
 - **Enlace:** https://www.seroundtable.com/google-tests-hide-sponsored-products-41689.html  
 
-### Google advierte que A/B tests muy diferentes pueden impactar indexación y visibilidad en resultados de búsqueda
+### Google advierte que A/B tests muy diferentes pueden impactar indexación y posicionamiento
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:11)  
-- **Implicacion:** Revisar configuración de A/B tests en sitios: variantes significativamente diferentes pueden ser indexadas de forma inconsistente. Riesgo de pérdida de visibilidad si Google indexa la variante de peor rendimiento. Documentar qué versión se usa para indexing y validar que cambios de contenido/estructura son minimales entre variantes.  
-- **Deja obsoleto:** La práctica de ejecutar A/B tests con cambios sustanciales de contenido/estructura sin monitoreo de indexación queda cuestionada  
+- **Implicacion:** Revisar setup de A/B tests en SEO: versiones radicalmente distintas pueden ser indexadas selectivamente o ambas aparecer en resultados. Requiere validar que variaciones sean moderadas o usar canonical/noindex estratégicamente si se quiere evitar fragmentación de señales de ranking.  
+- **Deja obsoleto:** Cuestiona la práctica de A/B tests agresivos sin control de indexación en SEO  
 - **Enlace:** https://www.seroundtable.com/google-a-b-testing-seo-41690.html  
 
-### Google prohibe ads de prediction markets en Michigan y New York; expande Shopping ads y free listings a más países
+### Google prohibe anuncios de mercados de predicción en Michigan y Nueva York; expande Shopping Ads y Free Listings
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:05)  
-- **Implicacion:** Si gestionas cuentas con clientes en Michigan o New York que operen prediction markets, debes remover/pausar esos anuncios para evitar violación de política. Para clientes de e-commerce, revisar elegibilidad de Shopping ads en nuevos países donde ahora están disponibles.  
+- **Implicacion:** Si gestionas cuentas con audiencias en MI o NY: revisar campañas de clientes en sector fintech/predicción y pausar o redirigir tráfico. Para cuentas de e-commerce: evaluar expansión a nuevos países en Shopping y Free Listings para optimizar alcance sin coste adicional.  
 - **Enlace:** https://www.seroundtable.com/google-bans-prediction-markets-product-ads-expands-shopping-ads-free-listings-41692.html  
 
 ## Relevancia baja
 
-### Resumen de foros de búsqueda del 15 de julio 2026 - aniversario de Google Image Search
+### Google Image Search cumple 25 años - recap de foro sin cambios de producto anunciados
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-15 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-07-15-2026-41691.html  
 
-### Google Image Search homepage rediseñada con galería de imágenes en lugar de caja de búsqueda limpia
+### Google Image Search rediseña su página de inicio añadiendo galería de imágenes en lugar de solo buscador
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-15 07:51)  
 - **Implicacion:** ninguna  
