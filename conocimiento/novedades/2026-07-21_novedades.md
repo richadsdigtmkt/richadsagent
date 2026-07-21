@@ -13,48 +13,49 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 1 de relevancia 
 
 ## Relevancia alta
 
-### Google abre formulario de extensión para migrar de Content API a Merchant API (deadline: 18 agosto 2026)
+### Google abre formulario para solicitar extensión de plazo de migración de Content API a Merchant API (vencimiento 18 agosto 2026)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-20 07:21)  
-- **Implicacion:** Clientes con feeds de Shopping via Content API deben: (1) evaluar si necesitan extensión antes del 18/08, (2) solicitar via formulario si requieren más tiempo, (3) planificar migración a Merchant API. Revisar estado de migraciones en progreso y comunicar a clientes afectados.  
-- **Deja obsoleto:** Content API for Shopping quedará obsoleta el 18 de agosto de 2026; workflows basados en esta API requieren cambio obligatorio a Merchant API.  
+- **Implicacion:** Revisar si usas Content API para Shopping. Si lo usas y no has migrado a Merchant API, solicitar extensión antes del vencimiento o completar migración. Afecta a gestión de catálogos de productos en Google Shopping.  
+- **Deja obsoleto:** Content API for Shopping quedará obsoleta tras el 18 agosto 2026 si no se obtiene extensión  
 - **Enlace:** https://www.seroundtable.com/google-content-api-extension-41710.html  
 
 ## Relevancia media
 
-### Google desaconseja desinstalar/reinstalar la app de Google & YouTube para Shopify durante transición de API
+### Google advierte contra desinstalar/reinstalar la app de Google y YouTube para Shopify durante transición de API
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-20 07:41)  
-- **Implicacion:** Si gestionas cuentas Shopify con integración Google Shopping/YouTube: no desinstalar/reinstalar la app actualmente. Esperar a que Google complete la transición de API. Si ya lo hiciste, revisar estado de feed y conversiones en Google Merchant Center.  
+- **Implicacion:** Si gestionas cuentas Shopify con integración Google/YouTube: no desinstales ni reinstales la app. Espera a que Google complete la transición de API automáticamente. Si ya lo hiciste, reporta a Google para resolución de issues.  
+- **Deja obsoleto:** La práctica de 'reinstalar para resolver problemas de sincronización' queda desaconsejada temporalmente para esta integración específica  
 - **Enlace:** https://www.seroundtable.com/google-google-youtube-shopify-app-update-41713.html  
 
-### ChatGPT amplía de 1 a 2 anuncios en footer de respuestas, ahora de diferentes anunciantes
+### ChatGPT amplía inventario publicitario a dos anuncios en footer de resultados
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-20 07:31)  
-- **Implicacion:** Evaluar si ChatGPT Ads es canal viable para clientes; monitorizar volumen de impresiones y CTR; considerar presupuesto incremental si la plataforma demuestra ROI. Relevante solo si ya inviertes o planeas invertir en ChatGPT Ads.  
+- **Implicacion:** Evaluar si ChatGPT como canal de conversión requiere presupuesto SEA dedicado. Monitorizar CTR y CPC en plataforma si ya hay campañas activas. No es urgente a menos que el cliente tenga audiencia significativa en ChatGPT.  
 - **Enlace:** https://www.seroundtable.com/chatgpt-showing-two-ads-41706.html  
 
-### Google especifica requisitos de posicionamiento para labels de contenido IA en image assets
+### Google actualiza directrices sobre posicionamiento de etiquetas AI en esquinas de imágenes de anuncios
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-20 07:11)  
-- **Implicacion:** Si utilizas labels manuales en ads con imágenes, evitar colocarlos en esquinas para cumplir con directrices de Google y evitar rechazos de assets. Revisar activos existentes si aplica.  
+- **Implicacion:** Si usas etiquetas AI propias en creative assets, evita colocarlas en las esquinas de las imágenes. Revisar y ajustar posicionamiento de labels en campañas activas si las tienes en corners para cumplir directrices de Google  
 - **Enlace:** https://www.seroundtable.com/google-ai-labels-corners-41711.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin detalles específicos
+### Recopilatorio diario de discusiones en foros de búsqueda
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-20 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-07-20-2026-41715.html  
 
-### Posible core update de Google Search sin confirmación oficial el 18-19 de julio
+### Posible actualización no confirmada de algoritmo de Google Search el 18-19 de julio
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-20 08:04)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-search-ranking-volatility-41712.html  
 
-### Google afirma que AI Overviews sigue generando miles de millones de clicks semanales a sitios web
+### Google afirma que AI Overviews genera miles de millones de clicks semanales a sitios web
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-20 07:51)  
 - **Implicacion:** ninguna  
