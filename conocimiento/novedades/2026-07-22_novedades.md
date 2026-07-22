@@ -13,43 +13,43 @@ Escaneo automatico de 5 fuentes. 6 entradas en las ultimas 26h, 2 de relevancia 
 
 ## Relevancia alta
 
-### Google Local Service Ads migra a la plataforma principal de Google Ads
+### Google Local Service Ads se integra en la plataforma principal de Google Ads
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-21 10:00)  
-- **Implicacion:** Revisar estructura de cuentas LSA existentes; verificar consolidación de interfaces, reportes y facturación en Google Ads estándar; revalidar permisos de acceso y automatizaciones; actualizar workflows de gestión de campañas LSA que operaban en plataforma separada  
-- **Deja obsoleto:** Gestión de LSA a través de plataforma/interfaz separada de Google Ads  
+- **Implicacion:** Revisión urgente de estructura de campañas LSA existentes. Cambio en interfaz de gestión, reporting consolidado y posible cambio en métricas/atribución. Requiere auditoría de cuentas activas en LSA y plan de migración/consolidación operativa.  
+- **Deja obsoleto:** Dashboard y flujo de gestión independiente de LSA; gestión segregada de presupuestos y bids por canal.  
 - **Enlace:** https://www.seroundtable.com/recap-07-21-2026-41720.html  
 
-### Google Local Services Ads se integra en Google Ads con nuevo tipo de campaña Performance Max especializado
+### Google Local Services Ads se integra en Google Ads con nuevo tipo de campaña Performance Max orientada a lead generation
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-21 07:51)  
-- **Implicacion:** Revisar estructura de cuentas LSA existentes y planificar migración a nueva Performance Max LSA en Google Ads durante 2026. Actualizar workflows de gestión de campañas LSA y reconfigurar objetivos de puja (pay-per-lead) en la nueva plataforma unificada.  
-- **Deja obsoleto:** Gestión de LSA en plataforma independiente de Google Ads queda obsoleta; dashboard y reporting LSA separado será reemplazado por Google Ads.  
+- **Implicacion:** Migración obligatoria de cuentas LSA a Google Ads durante 2026. Requiere reconfigurar campañas en nuevo tipo Performance Max específico para leads. Revisar estructura de cuentas, pujas y tracking de conversiones antes de transición automática.  
+- **Deja obsoleto:** Plataforma LSA independiente queda obsoleta. Flujos de gestión y reportes separados desaparecen.  
 - **Enlace:** https://www.seroundtable.com/google-local-services-ads-transition-google-ads-41717.html  
 
 ## Relevancia media
 
-### Google documenta que Performance Max genera headlines y descriptions automáticas desde landing page, dominio y ads existentes
+### Google clarifica que Performance Max genera automáticamente headlines y descriptions desde landing page, dominio y anuncios existentes
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-21 07:41)  
-- **Implicacion:** Confirma comportamiento existente en la UI. Si gestionas Performance Max, valida que tu landing page tiene contenido de calidad (H1, meta descriptions, copy principal) ya que Google lo usa como fuente de generación de assets. Revisa si necesitas optimizar landing page copy para mejorar relevancia de headlines/descriptions generados automáticamente.  
+- **Implicacion:** Verificar que las landing pages de clientes con Performance Max tienen contenido de calidad y keywords relevantes, ya que Google extrae de ahí para generar creatives. Revisar si los anuncios existentes cargados contienen mensajes clave que quieres que se repliquen en las variaciones generadas por IA.  
 - **Enlace:** https://www.seroundtable.com/google-updates-pmax-ai-generates-text-customization-41707.html  
 
-### Google Ads prueba enlazado masivo de cuentas de Analytics a múltiples cuentas de Ads
+### Google Ads prueba enlace masivo de cuentas Analytics: vincular múltiples cuentas GA a una cuenta Ads en una operación
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-07-21 07:31)  
-- **Implicacion:** Acelera setup inicial en cuentas multi-Ads (agencias, empresas con múltiples marcas). Reduce tareas manuales de linking GA4-Ads. Verificar si afecta a tu flujo de implementación actual si gestionas múltiples cuentas Ads por cliente.  
+- **Implicacion:** Reduce tiempo en setup inicial de tracking para agencias/consultores con múltiples cuentas Ads. Simplifica implementación de GA4 linking a escala, pero es feature de conveniencia operativa, no cambio de funcionalidad de medición  
 - **Enlace:** https://www.seroundtable.com/google-ads-bulk-linking-analytics-41714.html  
 
 ## Relevancia baja
 
-### Bing prueba un botón para expandir sitelinks en SERP
+### Bing prueba botón para expandir sitelinks en SERP sin cambiar la estructura de resultados
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-21 07:21)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/bing-open-sitelinks-41719.html  
 
-### Bing prueba sección de imágenes en el panel de shopping
+### Bing prueba sección de imágenes en panel de shopping
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-21 07:11)  
 - **Implicacion:** ninguna  
