@@ -13,34 +13,35 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Grandes editores consideran bloquear Google Search por caída de tráfico y desequilibrio en el intercambio de valor
+### Grandes publishers estudian bloquear Google Search por caída de tráfico y desequilibrio de valor
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-23 07:51)  
-- **Implicacion:** Monitorizar disponibilidad de contenido en Google Search para clientes con presencia editorial. Si se materializa bloqueo masivo, SEO pierde alcance. Preparar estrategia alternativa (social, search owned, Direct). Por ahora es posicionamiento, no acción inmediata.  
+- **Implicacion:** Monitorear en clientes editoriales/publishers la evolución de esta tendencia. Si se materializa bloqueos masivos, impactaría en indexación y visibilidad SEO. Preparar estrategias alternativas de tráfico (direct, redes, otros buscadores). Sin impacto inmediato en SEA/GA4.  
 - **Enlace:** https://www.seroundtable.com/publishers-blocking-google-search-41735.html  
 
-### Google ajusta resultados de hotel search en EU por cumplimiento DMA, sin detalles de cambios específicos aún
+### Google modifica resultados de búsqueda hotelera en UE por requisitos DMA
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-23 07:41)  
-- **Implicacion:** Monitorizar cambios en SERP de hotel search (EU) para detectar variaciones en posicionamiento, visibilidad de competidores y formato de resultados. Verificar si afecta a propiedades/clientes con inventario hotelero en mercados DMA.  
+- **Implicacion:** Revisar visibilidad en hotel search (SERPs hoteleras) en mercados DACH y España. Potencial cambio en posicionamiento y distribución de resultados. Requiere monitoreo de rankings en Google Hotel Search y ajuste de estrategia si hay cambios en criterios de ranking o visibilidad de competidores.  
 - **Enlace:** https://www.seroundtable.com/google-hotel-search-eu-41737.html  
 
-### Google Maps notifica explícitamente a usuarios cuando rechaza una reseña por incumplir políticas
+### Google Maps ahora notifica explícitamente cuando rechaza una reseña por violar políticas
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-23 07:31)  
-- **Implicacion:** Monitorear cambios en tasa de rechazo de reseñas en perfiles locales; revisar políticas de contenido de Maps para identificar qué está siendo filtrado automáticamente; considerar comunicación proactiva a clientes sobre requisitos de reseñas válidas  
+- **Implicacion:** Monitorear rechazos de reseñas en perfiles locales para identificar patrones de violación de políticas y ajustar estrategia de gestión de reputación. Relevante si gestionas múltiples perfiles locales o campañas de reseñas.  
 - **Enlace:** https://www.seroundtable.com/google-review-not-posted-email-41734.html  
 
 ### Google Ads API v25 lanzada con cambios mayores en campañas, planificación, reportes y conversiones
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-23 07:21)  
-- **Implicacion:** Revisar breaking changes para scripts/integraciones custom que usen API. Si usas automaciones, auditar compatibilidad antes de adoptar. Si no trabajas con API directo, impacto bajo.  
+- **Implicacion:** Revisar changelog de breaking changes para scripts, integraciones y automatizaciones propias. Evaluar si hay cambios en endpoints de campaigns, reporting o conversion tracking que afecten flujos actuales. Planificar migración si se usan versiones anteriores en producción.  
+- **Deja obsoleto:** Potencialmente obsoletas integraciones basadas en API v24 o anteriores si incluyen breaking changes; requiere verificación en changelog oficial  
 - **Enlace:** https://www.seroundtable.com/google-ads-api-v-25-41740.html  
 
-### UE multa a Google con €890M por prácticas anticompetitivas en Search y Play bajo la DMA
+### UE multa a Google con €890M por abuso de posición dominante en búsqueda bajo la DMA
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-23 06:15)  
-- **Implicacion:** Monitorear posibles cambios en algoritmo de Google Search o políticas de ranking en mercados DACH/España/UK si Google implementa cambios para cumplir DMA. Revisar términos de servicio de Google Ads si hay restricciones nuevas en integración Search-Play. Sin cambios operativos inmediatos confirmados.  
+- **Implicacion:** Monitorear cambios en los términos de servicio de Google Ads y potenciales restricciones en prácticas de bidding/targeting en mercados DACH/España/UK. La DMA puede forzar cambios en cómo Google gestiona datos de usuarios o políticas de integración Search-Play. Sin impacto operativo inmediato, pero aumenta riesgo regulatorio a medio plazo.  
 - **Enlace:** https://www.seroundtable.com/eu-fines-google-1-billion-dma-41745.html  
 
 ## Relevancia baja
