@@ -13,45 +13,46 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Search Console Page Indexing Report muestra datos agrupados por semanas en lugar de días desde junio
+### Google Search Console: Page Indexing Report con retrasos en actualización de datos diarios desde junio
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:51)  
-- **Implicacion:** Monitoreo de indexación menos granular. Afecta a análisis de velocidad de indexación y detección de cambios rápidos. Requiere paciencia en diagnósticos de problemas de indexación recientes y considerar otras fuentes de datos (Bing Webmaster Tools, logs de servidor) para validación diaria.  
+- **Implicacion:** Monitoreo de indexación afectado: los datos se agrupan por semanas en lugar de días, limitando la granularidad para detectar cambios rápidos en indexación. Verificar manualmente mediante Google Search Console o usar API si se requiere seguimiento diario preciso.  
 - **Enlace:** https://www.seroundtable.com/google-page-indexing-report-delays-static-data-41769.html  
 
-### Google Ads introduce nuevo estado de anuncio 'Has improvements'
+### Google Ads introduce nuevo estado de anuncio 'Has Improvements' sin detalles oficiales confirmados
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:41)  
-- **Implicacion:** Monitorizar cambios en estados de anuncios en cuentas activas. Verificar si este status es automático (similar a 'Eligible' o 'Limited by budget') o requiere acción manual. Impacta en interpretación de performance y diagnóstico de campañas.  
+- **Implicacion:** Monitorizar próximos cambios en Google Ads para comprender criterios y acciones asociadas a este estado. Por ahora, no hay documentación oficial; requiere confirmación antes de ajustar procesos de optimización.  
 - **Enlace:** https://www.seroundtable.com/google-ads-status-has-improvements-41759.html  
 
-### Google Ads introduce métricas de Product Clicks y Non-Product Clicks para desglosar clicks en anuncios de productos
+### Google Ads introduce métricas de clics en productos vs. otros elementos del anuncio
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:31)  
-- **Implicacion:** Permite analizar granularmente qué parte del anuncio genera conversión: clicks directos en producto vs. clicks en otras áreas del anuncio. Útil para optimizar creatividad y atribución en Shopping campaigns, pero requiere revisar reportes y dashboards para integrar estas métricas en análisis de rendimiento y ROI.  
+- **Implicacion:** Permite segmentar el rendimiento entre clics directos en productos (Product Clicks) y clics en otros elementos del anuncio (Non-Product Clicks). Útil para optimizar el diseño y posicionamiento de productos en anuncios Shopping, pero solo si estas métricas están disponibles en tus reportes existentes. Revisar disponibilidad en tu cuenta y ajustar análisis de CTR/conversión por tipo de clic.  
 - **Enlace:** https://www.seroundtable.com/google-ads-product-clicks-non-41757.html  
 
 ### Microsoft Advertising habilita Ad Preview Hub para Performance Max campaigns
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:21)  
-- **Implicacion:** Permite previsualizar creatividades y mensajes en PMax antes de lanzamiento. Afecta si gestiona cuentas Microsoft Ads con PMax: facilita QA de assets y reduce errores en creatividad, pero no cambia estrategia ni reporting.  
+- **Implicacion:** Permite visualizar anuncios PMax antes de publicar en Microsoft Advertising. Utilidad limitada si no gestiona PMax en Microsoft; revisar si afecta a flujos de QA en cuentas Microsoft con PMax activos.  
 - **Enlace:** https://www.seroundtable.com/microsoft-ad-preview-hub-pmax-41767.html  
 
-### Google Ads permite subir imagen de referencia para guiar la generación de imágenes AI
+### Google Ads permite subir imagen de referencia para generar imágenes con IA
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:11)  
-- **Implicacion:** Facilita el control creativo en campañas con AI-generated images. Requiere evaluar si vale la pena iterar con referencias propias vs. generación automática, especialmente en campañas de performance donde antes había que reutilizar assets existentes o contratar diseño externo.  
+- **Implicacion:** Nuevas opciones de control creativo en Performance Max y Shopping campaigns. Requiere testing con assets propios para validar si mejora CTR/conversiones respecto a generación automática. Evaluar si vale la pena el tiempo de carga de referencias vs. assets estáticos tradicionales.  
 - **Enlace:** https://www.seroundtable.com/google-ads-ai-generated-images-upload-image-41766.html  
 
-### Google Ads permite anuncios de Social Casino Games tras actualizar política de juego
+### Google Ads permite ahora anuncios de Social Casino Games mediante certificación de anunciante
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-28 07:05)  
-- **Implicacion:** Si gestiona cuentas de clientes gaming/casino: nueva categoría de anuncios abierta, requiere solicitud de certificación específica. No afecta a otros verticales. Verificar si clientes califican y establecer proceso de aplicación.  
+- **Implicacion:** Si gestionas cuentas con clientes de gaming/casino social: evaluar elegibilidad para certificación y proceso de solicitud. Revisar compliance actual contra nuevas policies. Impacto limitado si no tienes este vertical.  
+- **Deja obsoleto:** Antes estos anuncios estaban bloqueados; la política anterior de prohibición de gambling ads se relaja parcialmente para esta categoría específica  
 - **Enlace:** https://www.seroundtable.com/google-social-casino-games-ads-41763.html  
 
 ## Relevancia baja
 
-### Google prueba búsquedas relacionadas personalizadas basadas en historial de navegación del usuario
+### Google prueba búsquedas relacionadas basadas en historial de navegación del usuario
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-28 10:00)  
 - **Implicacion:** ninguna  
