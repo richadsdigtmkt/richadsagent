@@ -16,35 +16,35 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 1 de relevancia 
 ### Microsoft Ads integra Predictive Matching en Search Term Matching dentro de AI Max
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-31 07:51)  
-- **Implicacion:** Revisar campañas en Microsoft Ads: Predictive Matching como opción independiente desaparece. Migrar configuración a Search Term Matching en AI Max para mantener funcionalidad de matching predictivo. Validar rendimiento post-migración.  
-- **Deja obsoleto:** Predictive Matching como targeting option independiente en Microsoft Ads  
+- **Implicacion:** Revisar campañas en Microsoft Ads: Predictive Matching como opción standalone desaparece. La funcionalidad se consolida en Search Term Matching con capacidades AI Max. Requiere validar si tus campañas usan Predictive Matching actualmente y migrar settings a la nueva estructura antes del sunset.  
+- **Deja obsoleto:** Predictive Matching como targeting option independiente en Microsoft Ads queda deprecated  
 - **Enlace:** https://www.seroundtable.com/microsoft-predictive-matching-search-term-41783.html  
 
 ## Relevancia media
 
-### Google elimina requisito obligatorio de bloquear páginas de búsqueda interna en robots.txt, pero sigue siendo recomendado
+### Google elimina de directrices la obligación de bloquear páginas de búsqueda interna, pero recomienda hacerlo igual
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-31 07:41)  
-- **Implicacion:** Revisar configuración de robots.txt en auditorías SEO. No es obligatorio bloquear /search o /results, pero mantener bloqueo si hay riesgo de sobrecarga del servidor o contenido duplicado de baja calidad. Evaluar caso por caso en lugar de aplicar regla universal  
-- **Deja obsoleto:** La recomendación universal de bloquear todas las páginas de búsqueda interna en robots.txt deja de ser una best practice obligatoria  
+- **Implicacion:** Revisar robots.txt y noindex: si tienes bloqueado search results, no es obligatorio mantenerlo, pero sigue siendo recomendable por riesgo de carga de servidor y dilución de crawl budget. Evaluar caso a caso si tienes site search con bajo valor SEO.  
+- **Deja obsoleto:** Obsoleto: asumir bloqueo de internal search como requisito no negociable en auditoría SEO. Ahora es decisión táctica según arquitectura del sitio.  
 - **Enlace:** https://www.seroundtable.com/internal-search-results-google-guidelines-41794.html  
 
-### OpenAI prueba nuevo tipo de campaña 'Agent' en ChatGPT que redirige a conversaciones con chatbot en lugar de landing pages
+### OpenAI prueba nuevo tipo de campaña 'Agent' en ChatGPT que redirige a chatbots en sitios web en lugar de landing pages tradicionales
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-31 07:23)  
-- **Implicacion:** Evaluar si este canal complementario (ChatGPT → Business Agent) tiene ROI competitivo vs. Google Ads/GA4. Requiere setup de Business Agent, tracking de conversaciones en GA4 y atribución. Aún en fase de test; reservar monitoreo pero sin acción inmediata.  
+- **Implicacion:** Monitorizar si OpenAI abre esta feature a advertisers. Si se generaliza: evaluar si integrar Business Agent conversations como destino alternativo a landing pages en estrategia de conversión; requeriría testing de UX y tracking específico para conversaciones. Por ahora: fase de testing, sin acción inmediata.  
 - **Enlace:** https://www.seroundtable.com/chatgpt-ads-business-agent-41801.html  
 
-### Google LSA requiere D-U-N-S numbers para verificación en verticales selectas (US)
+### Google LSA requiere número D-U-N-S para verificación en verticales seleccionadas (US)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-07-31 07:21)  
-- **Implicacion:** Afecta solo a clientes con Local Service Ads en US en verticales específicas. Requiere obtener número D-U-N-S de Dun & Bradstreet para pasar verificación. Verificar si clientes afectados tienen este número; tramitación puede tardar. No impacta DACH, España ni UK según el aviso.  
+- **Implicacion:** Para clientes con LSA en US: revisar si sus verticales están incluidas en el requisito, obtener D-U-N-S number de Dun & Bradstreet si aplica, actualizar verificación de negocio antes de deadline (aún sin confirmar). Afecta principalmente verticales de servicios locales.  
 - **Enlace:** https://www.seroundtable.com/google-local-service-ads-duns-41760.html  
 
-### Bug en Google Business Profiles: productos quedan atrapados en estado 'Pending' sin poder publicarse
+### Bug en Google Business Profiles: productos atrapados en estado 'Pending' desde hace días sin respuesta oficial
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-07-31 07:11)  
-- **Implicacion:** Monitorizar si afecta a clientes con catálogos de productos en GBP. Si el bug persiste, los productos no aparecerán en búsqueda local ni GMB. Comunicar a clientes afectados que es issue de Google, no de su configuración. Esperar fix oficial antes de troubleshooting intenso.  
+- **Implicacion:** Revisar estado de productos en GBP (especialmente nuevos). Si están en Pending sin motivo, es un bug de Google, no un rechazo de políticas. Esperar fix o contactar GBP support. Afecta visibilidad de productos en búsqueda local y Maps.  
 - **Enlace:** https://www.seroundtable.com/google-business-profiles-products-pending-status-bug-41793.html  
 
 ## Relevancia baja
@@ -55,7 +55,7 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 1 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-07-31-2026-41800.html  
 
-### Recopilatorio semanal de noticias SEA/SEO sin detalles concretos de cambios implementados
+### Recopilatorio semanal de noticias del sector (volatilidad en Search, Platform Properties para X/YouTube, Lead Journey Mapping)
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-07-31 08:01)  
 - **Implicacion:** ninguna  
