@@ -13,7 +13,7 @@ Escaneo automatico de 5 fuentes. 1 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia baja
 
-### Filtro 'Recent' en Google Search y Google News no funcionaba temporalmente
+### Bug en Google Search: filtro 'Recent' no funciona en resultados de búsqueda
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-02 07:41)  
 - **Implicacion:** ninguna  
