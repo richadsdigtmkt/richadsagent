@@ -13,47 +13,46 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Volatilidad en rankings de Google Search entre 1-3 de agosto de 2026, detectada por herramientas de tracking
+### Volatilidad en rankings de Google Search entre 1-3 de agosto 2026, confirmada por herramientas de tracking
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:51)  
-- **Implicacion:** Monitorizar posiciones propias y de competencia durante el período. Revisar correlación entre cambios de ranking y cambios de tráfico en GA4 para descartar volatilidad temporal vs. pérdidas reales. Esperar a estabilización antes de implementar cambios SEO reactivos.  
+- **Implicacion:** Monitorear cambios en posiciones de cliente durante este período. Revisar GSC y herramientas de tracking propias para identificar keywords afectados. Pausar decisiones de optimización hasta estabilización. Documentar cambios para análisis post-update.  
 - **Enlace:** https://www.seroundtable.com/google-search-ranking-volatility-august-1-41811.html  
 
-### Bing Webmaster Tools añadirá filtros nativos en reportes de performance a nivel página y query
+### Bing Webmaster Tools añadirá filtros nativos en reportes de performance a nivel de página y query
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:31)  
-- **Implicacion:** Mejora UX en reporting de Bing; actualmente obliga a descargar datos para filtrar. Cuando se implemente, permitirá análisis segmentado directo en la plataforma. Relevancia limitada a cuentas con tráfico significativo de Bing (España/DACH: bajo-medio, UK: bajo). Monitorizar release para workflow de SEO reporting  
-- **Deja obsoleto:** La práctica de descargar datos CSV de Bing para filtrarlos externamente seguirá siendo válida, pero tendrá alternativa nativa  
+- **Implicacion:** Mejora UX en análisis de datos de Bing; elimina necesidad de descargar CSV para filtrar. Relevante solo si tienes tráfico significativo de Bing (típicamente <5% en DACH/UK). Monitorea lanzamiento pero no requiere cambios operativos inmediatos.  
 - **Enlace:** https://www.seroundtable.com/bing-webmaster-tools-page-query-level-filtering-coming-41802.html  
 
-### Google prueba autenticación (sign-in) en lugar de CAPTCHA para verificar búsquedas humanas
-- **Area:** General  
+### Google prueba requerir login en lugar de CAPTCHA para verificar humanidad en búsquedas
+- **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:21)  
-- **Implicacion:** Monitorear si el rollout afecta a usuarios en mercados DACH/ES/UK; evaluar impacto en tasa de rebote y comportamiento de sesión en GA4 si se generaliza. Posible fricción en UX de búsqueda que podría impactar CTR en resultados de marcas con audiencia sensible a fricciones de acceso.  
+- **Implicacion:** Monitorear si la prueba se generaliza. Posible impacto en UX y tasas de rebote si se implementa masivamente. Requiere revisar si afecta a tracked conversions desde búsqueda orgánica (GA4) en caso de que usuarios abandonen tras requerimiento de login.  
 - **Enlace:** https://www.seroundtable.com/google-search-sign-in-verify-41808.html  
 
-### Google Trends aumenta límite de comparación de 125 a 400 términos de búsqueda (5 a 8 grupos, 25 a 50 términos/grupo)
+### Google Trends aumenta capacidad de comparación: de 125 a 400 términos (8 grupos de hasta 50 términos cada uno)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:11)  
-- **Implicacion:** Permite análisis más comprehensivo de tendencias y estacionalidad en una sola consulta. Útil para research de keywords y validación de hipótesis de demanda, especialmente en estrategias multigeográficas DACH/ES/UK. Requiere revisión de workflows de análisis para aprovechar capacidad ampliada.  
+- **Implicacion:** Permite análisis competitivo y de demanda más granular en una única consulta. Útil para research de palabras clave y validación de volúmenes antes de ejecutar campañas, especialmente en mercados DACH con variantes terminológicas. Reduce iteraciones manuales en búsqueda exploratoria.  
 - **Enlace:** https://www.seroundtable.com/google-trends-more-search-terms-41788.html  
 
-### Microsoft retira APIs SOAP/POX de Bing Webmaster Tools el 31 agosto 2026
+### Microsoft retira APIs SOAP/POX de Bing Webmaster Tools el 31 de agosto de 2026
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:05)  
-- **Implicacion:** Si utilizas integraciones automáticas con Bing Webmaster Tools vía SOAP/POX (extracción de datos, auditorías masivas), debes migrar a REST API antes de la fecha límite. Revisar scripts y herramientas que dependan de estos endpoints.  
-- **Deja obsoleto:** Las conexiones SOAP/POX a Bing Webmaster Tools quedan obsoletas  
+- **Implicacion:** Si usas integraciones automáticas con Bing Webmaster Tools mediante SOAP/POX APIs (submisión de sitemaps, extracción de datos de crawl), debes migrar a REST API antes de la fecha límite. Afecta principalmente a automatizaciones legacy y scripts de monitoreo.  
+- **Deja obsoleto:** Las integraciones mediante SOAP/POX APIs quedarán no funcionales. REST API es el único método soportado post-2026.  
 - **Enlace:** https://www.seroundtable.com/bing-webmaster-tools-soap-pox-apis-retire-41805.html  
 
 ## Relevancia baja
 
-### Recopilatorio de foro sin datos concretos sobre volatilidad de ranking en agosto
+### Recopilatorio de foro: volatilidad de ranking en Google desde 1 de agosto
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-03 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-08-03-2026-41810.html  
 
-### Google Business Profile actualiza guía sobre protección contra fraudes en llamadas y textos
+### Google actualiza guía de protección contra fraudes en Google Business Profile con nuevos ejemplos y canales (WhatsApp, RCS)
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-03 07:41)  
 - **Implicacion:** ninguna  
