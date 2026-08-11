@@ -13,60 +13,59 @@ Escaneo automatico de 5 fuentes. 9 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google Ads introduce Advisor UI con herramientas AI para optimización de campañas
+### Google lanza Advisor UI en Google Ads y GA4 con herramientas de IA
 - **Area:** SEA  
 - **Fuente:** Google Ads & Commerce Blog (2026-08-10 14:30)  
-- **Implicacion:** Evaluar si la nueva interfaz Advisor mejora la automatización de recomendaciones existentes (Smart Bidding, automaciones). Revisar si el nuevo UI afecta workflows operativos o reporting en GA4. Requiere testing en cuentas de cliente para validar fiabilidad de recomendaciones antes de implementar  
+- **Implicacion:** Revisar disponibilidad de Advisor UI en cuentas propias y evaluar recomendaciones de IA para optimización de campañas y análisis de GA4; posible cambio en flujo de trabajo si se integra como fuente principal de insights  
 - **Enlace:** https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/  
 
-### Google Business Profiles prohíbe repetir el nombre de negocio en múltiples idiomas o escrituras
+### Google Business Profile prohíbe repetir el mismo nombre de negocio en múltiples idiomas o scripts
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:41)  
-- **Implicacion:** Revisar perfiles GBP en mercados multilingües (DACH, España, UK) donde se usaba estrategia de listar nombre en idioma local + transliteración/idioma original. Eliminar duplicados en el campo de nombre; usar solo una versión. Verificar especialmente en negocios con nombres en alfabeto latino/cirílico/caracteres asiáticos.  
-- **Deja obsoleto:** Estrategia de optimización GBP que aprovechaba listar 'Name (Nombre traducido)' o 'Name [Transliteración]' para capturar búsquedas en ambos idiomas  
+- **Implicacion:** Revisar GBP de clientes con nombres duplicados en diferentes idiomas/alfabetos (ej: nombre en cirílico + transliteración latina). Eliminar variantes redundantes del business name field. Afecta principalmente a negocios en mercados multilingües (DACH con nombres en múltiples scripts, mercados con transliteraciones)  
+- **Deja obsoleto:** Practica anterior de listar variantes bilingües/transliteradas en el mismo campo de nombre  
 - **Enlace:** https://www.seroundtable.com/google-business-profiles-disallows-repeated-bilingual-names-41839.html  
 
-### Google confirma que URLs con hreflang no se indexan independientemente, solo se almacenan como alternativas
+### Google confirma que URLs con hreflang no se indexan como páginas independientes, solo como alternativas
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:31)  
-- **Implicacion:** Revisar estrategia de indexación en sitios multiidioma/multirregión: no esperar que URLs hreflang aparezcan en índice de Google como URLs principales. Verificar que la URL canónica/principal se indexa correctamente y que hreflang solo funciona como señal de alternativa regional. Impacta auditorías SEO que asumen indexación independiente de variantes hreflang.  
-- **Deja obsoleto:** Queda obsoleta la práctica de tratar URLs hreflang como URLs indexables independientes; son solo punteros de alternativa a la URL principal.  
+- **Implicacion:** Revisar estrategias de indexación en sitios multiregionales/multiidioma: las URLs hreflang no generan índice separado. Verificar que la URL canónica principal está siendo indexada correctamente y que hreflang apunta correctamente a alternativas. Impacto bajo si ya se usa hreflang correctamente; relevante si se asumía indexación independiente de cada variante.  
 - **Enlace:** https://www.seroundtable.com/google-hreflang-urls-not-indexed-41838.html  
 
-### Google expande etiquetas 'AI' en anuncios creados/editados con IA a Local Pack y Google Discover
+### Google despliega etiquetas 'AI' en anuncios creados/editados con IA en Local Pack y Google Discover, no solo en Search
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:21)  
-- **Implicacion:** Revisar campañas locales y Discover que usen AI para generación/edición de creatividad. Los anuncios llevarán visible el label 'AI' según región, impactando potencialmente en CTR. Documentar qué anuncios fueron creados con IA para anticipar cambios de rendimiento.  
+- **Implicacion:** Monitorizar si tus campañas de anuncios (especialmente Local Services Ads y Discover) reciben etiqueta AI. Revisar si afecta CTR o conversiones en estos formatos. Documentar qué anuncios se etiquetan (criterio: creación/edición con IA de Google). No es acción inmediata pero requiere tracking comparativo.  
 - **Enlace:** https://www.seroundtable.com/google-ads-ai-labels-local-pack-discover-41841.html  
 
-### Microsoft Advertising permite editar y apelar assets rechazados en bulk
+### Microsoft Advertising permite editar y apelar assets rechazados en modo bulk
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:11)  
-- **Implicacion:** Reduce tiempo operativo en gestión de desaprobaciones. Útil si tienes volumen alto de assets rechazados (responsive search ads, image assets). Revisa si afecta a flujos de aprobación en cuentas DACH/España/UK con rechazo frecuente.  
-- **Deja obsoleto:** Vuelve obsoleto el proceso manual individual de apelación de assets  
+- **Implicacion:** Reduce tiempo operativo en gestión de creative assets rechazados. Relevante si gestiona campañas en Microsoft Ads con volumen significativo de assets. Implementar en workflow de QA de creatividades.  
+- **Deja obsoleto:** Edición individual de assets rechazados (práctica anterior menos eficiente)  
 - **Enlace:** https://www.seroundtable.com/microsoft-ads-bulk-edit-disapproved-assets-41835.html  
 
-### Google lanza Advisor UI con herramientas de IA en Google Ads y GA4
+### Google lanza Advisor UI en Google Ads y GA4 con herramientas IA integradas
 - **Area:** General  
 - **Fuente:** Google Analytics Blog (2026-08-10 14:30)  
-- **Implicacion:** Evaluar si las recomendaciones automatizadas del Advisor mejoran rendimiento en cuentas gestionadas. Requiere pruebas en cuentas piloto para validar fiabilidad antes de automatizar decisiones de oferta/segmentación. Sin detalles técnicos específicos, impacto operativo aún indeterminado.  
+- **Implicacion:** Evaluar si el Advisor UI (análisis automático + recomendaciones IA) mejora la detección de oportunidades vs. análisis manual actual. Verificar fiabilidad de recomendaciones antes de automatizar decisiones de pujas/segmentación. Monitorear si sustituye o complementa reportería estándar.  
 - **Enlace:** https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin detalles específicos
+### Recopilatorio diario de discusiones en foros de búsqueda
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-10 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-08-10-2026-41843.html  
 
-### Meta presuntamente crawlea la web y desarrollaría su propio motor de búsqueda
-- **Area:** General  
+### Meta presuntamente crawlea la web para construir un motor de búsqueda propio
+- **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:51)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/meta-facebook-search-engine-41840.html  
 
-### Google prueba nuevos botones de IA en la home (Create Images, Ask About Files, Brainstorm) junto a la búsqueda tradicional
+### Google prueba nuevos botones de IA (crear imágenes, preguntas sobre archivos, brainstorm) en la página de inicio
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-10 07:05)  
 - **Implicacion:** ninguna  
