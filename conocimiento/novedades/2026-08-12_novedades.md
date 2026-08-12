@@ -13,48 +13,48 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 1 de relevancia 
 
 ## Relevancia alta
 
-### Google migrará Travel Campaigns a Search Campaigns for Travel en Q3 2026
+### Google migra Travel Campaigns a Search Campaigns for Travel en Q3 2026
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-11 07:41)  
-- **Implicacion:** Auditoría urgente de cuentas con Travel Campaigns activas. Preparar migración de estructuras, palabras clave, ofertas y tracking antes de Q3 2026. Validar que Search Campaigns for Travel cubre todos los KPIs actuales (conversiones de viajes, CPA, ROAS). Revisar que el tracking de Google Ads a sistemas CRM de viajes se mantiene compatible.  
-- **Deja obsoleto:** Travel Campaigns como tipo de campaña desaparecerá; toda optimización específica para ese formato quedará obsoleta.  
+- **Implicacion:** Auditar todas las Travel Campaigns activas antes de Q3 2026. Preparar migración de estructuras, bidding strategies, keywords y creative assets. Validar que Search Campaigns for Travel soporta la configuración actual (conversiones, ROAS targets, seasonality rules). Testear equivalencia de performance antes del cambio forzado.  
+- **Deja obsoleto:** Travel Campaigns (producto actual) será deprecado. Las prácticas de optimización específicas para Travel Campaigns dejarán de aplicarse.  
 - **Enlace:** https://www.seroundtable.com/google-travel-campaigns-migrating-41849.html  
 
 ## Relevancia media
 
-### Google prueba mostrar favicon y dominio de anunciantes en grupo de resultados patrocinados (mobile)
+### Google prueba mostrar favicon y dominio de anunciantes en el header del bloque de anuncios patrocinados en móvil
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-11 07:51)  
-- **Implicacion:** Monitorear si el test se generaliza. Si se implementa, podría afectar CTR de anuncios al cambiar su posición visual en mobile y añadir preview de competidores directamente visible. Revisar rendimiento de campañas en mobile si la prueba escala.  
+- **Implicacion:** Monitorear si el test escala: podría aumentar CTR de anuncios al mejorar visibilidad/credibilidad del anunciante antes del click, afectando métricas de rendimiento y estrategias de posicionamiento en el bloque. Requiere seguimiento en próximas semanas para validar impacto en datos de cuenta.  
 - **Enlace:** https://www.seroundtable.com/google-ads-sponsored-results-ad-summary-header-41851.html  
 
-### Google mantiene presión comercial para que agencias transfieran cuentas de clientes directamente a Google
+### Google continúa con captación activa de cuentas de agencias hacia gestión directa
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-11 07:31)  
-- **Implicacion:** Riesgo operativo: reforzar acuerdos contractuales con clientes sobre gestión de cuentas y clarificar términos de terminación. Documentar todas las comunicaciones de Google reps. Considerar acceso compartido con permisos limitados en lugar de propiedad de cuenta para reducir fricción.  
+- **Implicacion:** Riesgo de pérdida de clientes si Google contacta directamente. Recomendación: reforzar relación con clientes, documentar valor añadido diferencial vs. gestión directa, revisar cláusulas contractuales de exclusividad/cambio de gestor.  
 - **Enlace:** https://www.seroundtable.com/google-poaching-agency-ads-accounts-41845.html  
 
-### Google lanza nuevas features AI en Ads y GA4: AI Overviews, data dashboards y feature de 'nebcging' no especificado
+### Google anuncia nuevas features de IA en Ads y Analytics (Overviews, dashboards, nebcging)
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-11 07:21)  
-- **Implicacion:** Requiere análisis detallado de cada feature. AI Overviews en Ads podría afectar CTR y posicionamiento de anuncios. Los dashboards AI en GA4 necesitan evaluación de utilidad vs. herramientas custom actuales. El 'nebcging' no está claramente definido en la fuente - es ruido hasta tener detalles técnicos  
+- **Implicacion:** Requiere auditar si las nuevas AI Overviews afectan CTR en SERPs; evaluar adopción de dashboards IA en GA4 para optimizar reportes; esperar documentación técnica sobre 'nebcging' (término parece incompleto/erróneo en fuente) antes de implementar  
 - **Enlace:** https://www.seroundtable.com/google-ads-analytics-new-ai-features-41848.html  
 
-### Google Search Console activa reportes de rendimiento con IA generativa para todos los usuarios
+### Google Search Console lanza AI Performance Report para todos los usuarios
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-11 05:46)  
-- **Implicacion:** Revisar Search Console para acceder a nuevos reportes que utilizan IA generativa para analizar rendimiento. Evaluar si estos reportes proporcionan insights adicionales sobre tráfico orgánico y comportamiento de búsqueda que mejoren la estrategia SEO actual.  
+- **Implicacion:** Revisar Search Console para acceder al nuevo reporte de IA generativa. Evaluar si proporciona insights adicionales sobre rendimiento de búsqueda respecto a reports estándar. Potencial aplicación en optimización de contenido y estrategia de keywords.  
 - **Enlace:** https://www.seroundtable.com/google-search-console-ai-report-live-41850.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin temas específicos identificados
+### Recopilatorio diario de discusiones de forums de búsqueda sin detalle de cambios específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-11 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-08-11-2026-41852.html  
 
-### Cuentas de X expiradas de empleados de Google están siendo tomadas por servicios SEO, generando desinformación
+### Cuentas X abandonadas de Googlers fueron recuperadas por servicios SEO y spam
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-11 07:11)  
 - **Implicacion:** ninguna  
