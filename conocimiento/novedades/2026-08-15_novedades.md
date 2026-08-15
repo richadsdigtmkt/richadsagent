@@ -13,49 +13,50 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 2 de relevancia 
 
 ## Relevancia alta
 
-### Google Ads elimina la opción de establecer manualmente language targeting el próximo mes
+### Google Ads elimina la opción de segmentación de idioma manual a partir de septiembre 2026
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-14 10:00)  
-- **Implicacion:** Revisar todas las campañas activas con language targeting manual. Identificar qué criterios de idioma están configurados y evaluar si Google los migra automáticamente o requieren reconfiguración. Validar que el targeting de idioma resultante siga siendo correcto post-cambio.  
-- **Deja obsoleto:** La práctica de manual language targeting en Google Ads queda deprecada  
+- **Implicacion:** Revisar todas las campañas activas con targeting de idioma manual. Evaluar si Google aplicará segmentación automática basada en señales de usuario (idioma del dispositivo, búsquedas previas). Documentar configuraciones actuales antes del cambio. Potencial impacto en campañas multidioma y mercados DACH/España/UK con audiencias mixtas.  
+- **Deja obsoleto:** Quedan obsoletas las estrategias de segmentación de idioma manual configuradas manualmente en Google Ads. Necesario migrar a segmentación automática o explorar alternativas (audiencias por búsqueda, geolocalización combinada).  
 - **Enlace:** https://www.seroundtable.com/recap-08-14-2026-41875.html  
 
-### Google Ads elimina ajuste manual de idioma en campañas; pasa a selección automática basada en IA
+### Google Ads elimina control manual de idioma en septiembre 2026; sistema automático basado en IA selecciona idioma de anuncio
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-14 07:51)  
-- **Implicacion:** Revisar campañas multiidioma antes de septiembre 2026. Eliminar configuraciones manuales de idioma. Validar que Google selecciona correctamente idiomas en mercados DACH/ES/UK con múltiples variantes lingüísticas. Implementar tracking de rendimiento por idioma detectado automáticamente para detectar desajustes.  
-- **Deja obsoleto:** Práctica de segmentación manual por idioma en Google Ads. Las estrategias basadas en control granular de idioma por grupo de anuncios requieren rediseño.  
+- **Implicacion:** Revisar todas las campañas multiioma antes de septiembre: confirmar que tienes anuncios en idiomas objetivo (sistema no creará variantes automáticas). Validar que matching automático de Google cubre geografías/idiomas objetivo. Perderás control granular sobre qué idioma mostrar por geografía. Implementar pruebas post-rollout para detectar cambios en rendimiento por mercado/idioma.  
+- **Deja obsoleto:** Queda obsoleta la estrategia de ajuste manual de idioma por campaña/grupo de anuncios como método de optimización de relevancia o contención de gastos por idioma  
 - **Enlace:** https://www.seroundtable.com/google-ads-language-targeting-update-41867.html  
 
 ## Relevancia media
 
-### Google prueba botones de IA en home page; volatilidad de ranking el 12 de agosto; Meta desarrolla motor de búsqueda
+### Google prueba botones de IA en homepage y testea Local Pack con generación de contenido; volatilidad de rankings el 12 de agosto; Meta desarrolla motor de búsqueda
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-14 08:01)  
-- **Implicacion:** Monitorear impacto de nuevos elementos de IA en CTR orgánico y posicionamiento. Meta Search Engine requiere vigilancia como canal potencial futuro. Volatilidad de ranking exige revisión de tracking de posiciones.  
+- **Implicacion:** Monitorizar posible impacto en CTR desde homepage si Google expande tests de IA buttons (cambio en SERP real estate). Revisar visibilidad en Local Pack si Google implementa contenido generado por IA. Trackear volatilidad de rankings del 12/08 en propiedades SEO de clientes. Meta Search sigue siendo test, vigilancia a largo plazo.  
 - **Enlace:** https://www.seroundtable.com/video-08-14-2026-41871.html  
 
 ### Google despliega imágenes generadas por IA dentro de AI Overviews en resultados de búsqueda
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-14 07:41)  
-- **Implicacion:** Monitorizar si las AI Overviews con imágenes generadas reducen CTR hacia sitios web propios. Evaluar si contenido visual original en página sigue siendo indexado o si Google prioriza síntesis con imágenes IA. Relevante para SEO si afecta visibilidad de imágenes propias en SERP.  
+- **Implicacion:** Monitorear si las imágenes generadas por IA desplazan visibilidad de imágenes propias en SERPs. Revisar si hay oportunidad de optimización de contenido visual para evitar sustitución por síntesis de IA. Impacto en CTR y tráfico a ser medido en GA4 por segmento de query. Baja implicación directa en SEA/Ads.  
+- **Deja obsoleto:** Las prácticas de optimización de image snippets pueden perder relevancia si Google prioriza síntesis propia en AIO sobre assets indexados  
 - **Enlace:** https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html  
 
-### Google Merchant Center for Agencies aumenta límite de cuentas vinculadas de indefinido a 1.000
+### Google Merchant Center for Agencies aumenta límite de cuentas vinculadas a 1.000
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-14 07:31)  
-- **Implicacion:** Si gestiona múltiples cuentas de e-commerce para clientes, ahora tiene confirmado el techo máximo (1.000). Afecta si maneja agencias con carteras grandes de clientes shopping. Requiere revisar si algún cliente supera este límite y buscar alternativa (sub-agencias o cuentas separadas).  
+- **Implicacion:** Si gestiona múltiples cuentas de ecommerce con Google Shopping, puede consolidarlas bajo una única agencia en GMC. Afecta a la estructura de gestión si trabaja con >10 clientes ecommerce, permitiendo reporting centralizado y optimizaciones a escala. Verificar si su setup actual aprovecha esta capacidad.  
 - **Enlace:** https://www.seroundtable.com/google-merchant-center-for-agencies-1000-accounts-41870.html  
 
-### Google Business Profiles: nueva opción para reportar respuestas de propietarios que violen políticas (spam, hate speech, datos personales)
+### Google añade opción de reportar respuestas de propietarios en Google Business Profiles por contenido inapropiado
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-14 07:11)  
-- **Implicacion:** Monitorizar respuestas de propietarios a reviews en cuentas gestionadas. Si detectas responses problemáticas, usar el nuevo botón 'Report owner response' en lugar de reportar la review completa. Relevante si trabajas con GMB en mercados DACH/España/UK con volumen significativo de reviews.  
+- **Implicacion:** Afecta a gestión de reputación en GBP: los clientes pueden ahora denunciar respuestas de propietarios (no solo reviews). Revisar periódicamente respuestas propias para evitar contenido que incumpla políticas (insultos, discriminación, datos personales). Entrenar al equipo de atención al cliente en GBP sobre límites de contenido aceptable en respuestas.  
 - **Enlace:** https://www.seroundtable.com/google-report-owner-response-41873.html  
 
 ## Relevancia baja
 
-### Google declara Googlebot desde California pero podría venir de otros data centers sin comunicarlo
+### Googlebot declara ubicación en California pero puede ejecutarse desde otros data centers de Google
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-14 07:21)  
 - **Implicacion:** ninguna  
