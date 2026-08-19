@@ -4,7 +4,7 @@ fecha: 2026-08-19
 fuentes_escaneadas: 5
 novedades: 7
 relevancia_alta: 0
-tags: [novedades, general, seo]
+tags: [novedades, general, sea, seo]
 ---
 
 # Novedades del sector - 2026-08-19
@@ -13,22 +13,15 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google lanza actualización global anti-spam en agosto 2026 con despliegue de pocos días
+### Google lanza actualización global anti-spam en agosto 2026 con rollout de pocos días
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-18 12:45)  
-- **Implicacion:** Monitorizar rankings y tráfico orgánico de clientes en los próximos 7-10 días para detectar caídas por colateral damage. Revisar si hay señales de spam en propiedades propias o competencia. No hay acción preventiva específica posible antes del rollout completo.  
+- **Implicacion:** Monitorear rankings y tráfico orgánico de clientes en días posteriores al 18 de agosto. Revisar si hay caídas no explicadas en sitios con señales de spam (backlinks sospechosos, contenido thin, cloaking). Potencial daño colateral en sitios limpios: preparar análisis de logs y GSC para detectar issues. No requiere acción preventiva si el sitio cumple guías de Google.  
 - **Enlace:** https://www.seroundtable.com/google-august-2026-spam-update-41895.html  
-
-### Google AdSense elimina pagos en cheques denominados en EUR a partir del 7 de agosto de 2026
-- **Area:** General  
-- **Fuente:** Search Engine Roundtable (2026-08-18 07:21)  
-- **Implicacion:** Afecta solo a publishers de AdSense en zona euro que reciben pagos por cheque. Necesitan cambiar a transferencia bancaria, tarjeta AdSense o cheques en USD antes de la fecha límite. Para consultor SEA/SEO: revisar si clientes/partners con AdSense usan este método de pago y notificar cambio obligatorio.  
-- **Deja obsoleto:** Los cheques en EUR como método de pago válido en AdSense quedan obsoletos  
-- **Enlace:** https://www.seroundtable.com/google-adsense-drops-euro-denominated-check-payments-41817.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin detalles específicos
+### Recopilatorio diario de discusiones en foros de búsqueda (sin detalles específicos)
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-18 10:00)  
 - **Implicacion:** ninguna  
@@ -40,19 +33,25 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-search-profiles-edit-your-handle-41886.html  
 
-### Google prueba subrayado e hipervínculo en la sección 'Búsquedas relacionadas' de SERP
+### Google prueba subrayado e hipervinculos en la seccion 'Related Searches' de resultados
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-18 07:41)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-related-search-for-underline-41846.html  
 
-### Instabilidad en la carga de anuncios en ChatGPT (posible defecto del ad server)
-- **Area:** General  
+### Problema técnico de ad server en ChatGPT: anuncios cambian al cargar
+- **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-18 07:31)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/chatgpt-ads-switching-advertisers-41883.html  
 
-### Google anunciará soporte futuro del método HTTP QUERY, sin fecha ni detalles técnicos concretos
+### Google AdSense elimina pagos en cheques denominados en EUR a partir del 7 de agosto de 2026
+- **Area:** General  
+- **Fuente:** Search Engine Roundtable (2026-08-18 07:21)  
+- **Implicacion:** Solo afecta a publishers de AdSense que reciben pagos en cheques EUR. Deben cambiar a USD-check o métodos alternativos (transferencia bancaria, etc.). No impacta en SEA, SEO ni tracking. Relevante solo si gestionas publishers directos.  
+- **Enlace:** https://www.seroundtable.com/google-adsense-drops-euro-denominated-check-payments-41817.html  
+
+### Google planea soportar el método HTTP QUERY cuando el ecosistema lo adopte
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-18 07:11)  
 - **Implicacion:** ninguna  
