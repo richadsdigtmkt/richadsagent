@@ -3,85 +3,83 @@ tema: Novedades del sector
 fecha: 2026-08-22
 fuentes_escaneadas: 5
 novedades: 11
-relevancia_alta: 3
+relevancia_alta: 1
 tags: [novedades, general, sea, seo, tracking]
 ---
 
 # Novedades del sector - 2026-08-22
 
-Escaneo automatico de 5 fuentes. 11 entradas en las ultimas 26h, 3 de relevancia alta.
+Escaneo automatico de 5 fuentes. 11 entradas en las ultimas 26h, 1 de relevancia alta.
 
 ## Relevancia alta
 
-### Microsoft Advertising retira Max CPC para nuevas campañas no-portfolio a partir del 1 de octubre de 2026
+### Microsoft Advertising elimina Max CPC para nuevas campañas no-portfolio a partir del 1 de octubre de 2026
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-08-21 07:41)  
-- **Implicacion:** Las campañas nuevas en Microsoft Ads deberán usar estrategias alternativas (ECPC, Target CPA, ROAS). Revisar y migrar flujos de creación de campañas antes de octubre. Las campañas existentes con Max CPC seguirán funcionando.  
-- **Deja obsoleto:** Max CPC como opción de licitación para nuevas campañas en Microsoft Advertising  
+- **Implicacion:** Las campañas nuevas en Microsoft Ads deberán usar estrategias alternativas (Automated Bidding, Target CPA, Target ROAS o Portfolio Bid Strategy). Revisar y migrar cualquier flujo de creación de campañas que dependa de Max CPC manual antes de la fecha límite.  
+- **Deja obsoleto:** La creación de campañas con puja manual Max CPC en Microsoft Advertising dejará de ser viable para nuevas campañas.  
 - **Enlace:** https://www.seroundtable.com/microsoft-advertising-max-cpc-sunset-41917.html  
-
-### Google Ads lanza nuevas capacidades de experimentación (A/B tests mejorados) y planificación con parámetros de brand/location en Performance Planner
-- **Area:** SEA  
-- **Fuente:** Search Engine Roundtable (2026-08-21 07:23)  
-- **Implicacion:** Revisar y migrar tests actuales a nuevas funcionalidades de A/B testing; validar si parámetros brand/location en Performance Planner mejoran precisión de forecasting para presupuestos; evaluar si AI Max sustituye necesidad de tests manuales tradicionales  
-- **Deja obsoleto:** Potencialmente: tests A/B manuales legacy en Google Ads si las nuevas capacidades ofrecen automatización superior; validar si forecasting manual se vuelve innecesario  
-- **Enlace:** https://www.seroundtable.com/google-ads-ai-max-experimentation-planning-41910.html  
-
-### Google Local Service Ads introduce pre-badge ads, expande verticales y actualiza criterios de badge verificado
-- **Area:** SEA  
-- **Fuente:** Search Engine Roundtable (2026-08-21 07:21)  
-- **Implicacion:** Revisar eligibilidad de clientes LSA en nuevas verticales; evaluar estrategia pre-badge vs badge verificado (distintas métricas de confianza); auditar exclusiones actualizadas del badge para campañas activas  
-- **Deja obsoleto:** Gestión de LSA solo en plataforma nativa LSA; consolidación en Google Ads requiere migración de reporting y optimization  
-- **Enlace:** https://www.seroundtable.com/google-lsa-prebadge-new-verticals-41920.html  
 
 ## Relevancia media
 
-### Google lanza tercer spam update de 2026 en agosto; Search AI Mode ahora powered por Gemini 3.7
+### Google lanzó su tercer spam update de 2026 en agosto; AI Mode en Search ahora powered por Gemini 3.7
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-21 08:01)  
-- **Implicacion:** Revisar visibilidad de dominios propios y competidores en rankings post-update. Verificar si contenido cumple nuevos criterios anti-spam de Google. Monitorear cambios en CTR y posiciones en GA4/GSC. Sin detalles técnicos del update aún disponibles en la fuente.  
+- **Implicacion:** Auditar visibilidad y tráfico SEO en el período post-update (19-21 ago). Monitorear si contenido propio fue afectado. Considerar que AI Mode puede fragmentar CTR en SERP si expande la adopción.  
 - **Enlace:** https://www.seroundtable.com/video-08-21-2026-41915.html  
 
-### Googlebot aplica un único paso de desescapado HTML en JSON-LD; se requiere JSON válido sin doble-escapado
+### Google Ads añade capacidades de experimentación (A/B tests mejorados), parámetros de marca/ubicación y nuevas predicciones en Performance Planner
+- **Area:** SEA  
+- **Fuente:** Search Engine Roundtable (2026-08-21 07:23)  
+- **Implicacion:** Revisar si los nuevos A/B test capabilities permiten tests más granulares que los actuales. Evaluar si los parámetros de brand/location optimizan la segmentación sin cambiar estructura de campañas. Verificar si las nuevas predicciones de Performance Planner generan insights accionables para presupuestos. Sin detalles técnicos, esperar documentación oficial antes de cambios operativos.  
+- **Enlace:** https://www.seroundtable.com/google-ads-ai-max-experimentation-planning-41910.html  
+
+### Google expande LSAs con pre-badge ads, nuevos verticales y cambios en criterios de verificación
+- **Area:** SEA  
+- **Fuente:** Search Engine Roundtable (2026-08-21 07:21)  
+- **Implicacion:** Revisar elegibilidad de cuentas en nuevos verticales LSA. Evaluar si pre-badge ads (sin verificación completa) tienen ROI competitivo vs. verified badges. Auditar exclusiones actualizadas del badge para no perder eligibilidad.  
+- **Enlace:** https://www.seroundtable.com/google-lsa-prebadge-new-verticals-41920.html  
+
+### Googlebot aplica un solo pase de HTML unescaping en JSON-LD; se requiere JSON estándar correcto
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-21 07:15)  
-- **Implicacion:** Revisar implementación de schema markup: si el JSON-LD contiene HTML escapado (ej: &quot;, &lt;), aplicar un solo desescapado. Validar con Google Structured Data Testing Tool. Auditar sitios con markup generado dinámicamente o por CMS que aplique doble-escapado automático.  
-- **Deja obsoleto:** Depender de auto-corrección de Google para JSON-LD con escapado redundante. Las prácticas de double-escaping como workaround dejan de funcionar.  
+- **Implicacion:** Revisar implementaciones de schema markup donde se use HTML escaping doble o confíe en auto-corrección de Google. El marcado debe ser JSON válido desde origen. Riesgo: structured data no extraída si está mal formateada.  
+- **Deja obsoleto:** Queda obsoleta la práctica de usar doble HTML escaping como workaround esperando que Google lo corrija automáticamente  
 - **Enlace:** https://www.seroundtable.com/json-ld-extraction-googlebot-41921.html  
 
-### Google permite personalizar Discover Feed mediante conversación con IA para refinar temas de interés
+### Google permite personalizar Discover Feed mediante conversación con IA para filtrar temas
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-21 07:11)  
-- **Implicacion:** Requiere revisar estrategia de contenido para Discover: énfasis en temas que usuarios pueden especificar conversacionalmente. Recolectar datos sobre qué términos conversacionales usan usuarios para acceder a tu contenido en Discover. Potencial mejora en CTR si se alinean contenidos con estos filtros personalizados.  
+- **Implicacion:** Afecta a estrategia de contenido en Discover: requiere mapear intents conversacionales de usuarios y ajustar keywords/topics para coincidir con queries de personalizacion. Relevante si tienes trafico significativo desde Discover; menor impacto si dependes de Search organico tradicional.  
 - **Enlace:** https://www.seroundtable.com/google-discover-tailored-feed-by-words-41911.html  
 
-### Google actualizó Google Tag y Google Tag Manager con cambios de simplificación y rendimiento
+### Google actualiza Google Tag y Google Tag Manager con cambios en setup de medición y unificación de productos
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-08-21 07:05)  
-- **Implicacion:** Requiere revisar la documentación oficial de Google para identificar cambios concretos en implementación, estructura de tags o interfaz. Sin detalles específicos del update, no hay acciones inmediatas; esperar comunicación oficial de Google con breaking changes o nuevas capacidades que afecten configuraciones existentes.  
+- **Implicacion:** Revisar changelog oficial para identificar cambios específicos en configuración, API o flujos de trabajo. Sin detalles concretos del update, evaluar impacto en contenedores existentes y posibles migraciones necesarias en GA4/Ads integration.  
 - **Enlace:** https://www.seroundtable.com/google-tag-and-google-tag-manager-updated-41918.html  
 
-### Google completó el despliegue del spam update de agosto 2026 (18-21 de agosto)
+### Google completó el rollout del spam update de agosto 2026 (18-21 ago)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-21 05:20)  
-- **Implicacion:** Revisar volatilidad de rankings en periodo 18-21 ago. Si hay caídas de tráfico SEO, atribuir a este update y evaluar contenido vs señales de spam (enlaces, contenido generado, cloaking). Monitorizar recuperación post-update en propiedades afectadas.  
+- **Implicacion:** Monitorear cambios en rankings y tráfico orgánico de clientes durante el período del update. Analizar si hay caídas anómalas correlacionadas con patrones de spam que Google haya penalizado. Revisar backlink profile y contenido generado por IA en clientes afectados  
 - **Enlace:** https://www.seroundtable.com/google-august-2026-spam-update-done-41906.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones de foros de búsqueda sin temas específicos identificados
+### Recopilatorio diario de foros de búsqueda sin contenido específico detallado
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-21 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-08-21-2026-41922.html  
 
-### Google Search Console reporta laguna de datos en Crawl Stats (15-16 agosto)
+### Google Search Console: falta de datos en Crawl Stats del 15-16 de agosto
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-21 09:12)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-search-console-crawl-stats-missing-41923.html  
 
-### Google actualiza el botón Preferred Sources para publishers con mejor gestión del flujo de retorno
+### Google actualiza botón Preferred Sources para retener usuarios en la página de origen
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-08-21 07:51)  
 - **Implicacion:** ninguna  
