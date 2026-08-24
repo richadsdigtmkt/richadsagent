@@ -13,7 +13,7 @@ Escaneo automatico de 5 fuentes. 1 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia baja
 
-### Google ha corregido dos bugs: favicons no aparecían en snippets de búsqueda y faltaban 2 días de datos en GSC crawl stats
+### Google corrigió bug de favicons en snippets de búsqueda y datos faltantes en crawl stats de GSC
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-08-23 20:45)  
 - **Implicacion:** ninguna  
