@@ -13,49 +13,48 @@ Escaneo automatico de 5 fuentes. 9 entradas en las ultimas 26h, 1 de relevancia 
 
 ## Relevancia alta
 
-### Google Search Console libera globalmente reportes de rendimiento de IA generativa y controles para SGE
+### Google Search Console ahora disponible globalmente con reportes de rendimiento de IA generativa y controles de IA en búsqueda
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:51)  
-- **Implicacion:** Acceso a datos de rendimiento de búsquedas generadas por IA en GSC (CTR, impresiones, posición en SGE). Permite auditar y controlar visibilidad en resultados de IA. Revisar regularmente estos reportes para detectar cambios en tráfico derivado de SGE vs búsqueda tradicional y ajustar estrategia de contenido si es necesario.  
-- **Deja obsoleto:** Obsoleta la práctica de ignorar el impacto de SGE en métricas de tráfico orgánico; ahora es medible y requiere monitoreo independiente.  
+- **Implicacion:** Revisar GSC para acceder a nuevos reportes que muestran cómo la IA generativa de Google impacta en el tráfico orgánico y visibilidad. Configurar controles de IA para gestionar cómo el contenido se utiliza en respuestas generativas. Necesario evaluar cambios en CTR y posicionamiento en contexto de IA.  
 - **Enlace:** https://www.seroundtable.com/google-search-console-generative-ai-tools-live-41984.html  
 
 ## Relevancia media
 
-### Google corrige bug en Local Service Ads que desvincula anuncios de perfiles de negocio asociados
+### Google corrige bug en Local Service Ads que desvincula anuncios de perfiles de negocio asociados, con problemas de estabilidad reportados
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-01 15:17)  
-- **Implicacion:** Revisar cuentas LSA activas para detectar desvinculaciones no intencionadas con Google Business Profile. Monitorizar estabilidad/velocidad de plataforma LSA si gestiona clientes con esta vertical. No requiere acción inmediata si no hay problemas detectados.  
+- **Implicacion:** Revisar si LSA están desvinculados de GMB en cuentas activas. Monitorear rendimiento de campañas LSA durante el periodo de corrección. Considerar pausa temporal si inestabilidad afecta conversiones. Verificar datos de tracking en GA4 durante el bug.  
 - **Enlace:** https://www.seroundtable.com/google-local-service-ads-bug-41999.html  
 
-### Google Ads etiqueta explícitamente como 'AI-generated' los resúmenes de reseñas de clientes en anuncios de búsqueda
+### Google Ads etiqueta explícitamente como 'AI-generated' los resúmenes de reseñas en anuncios de búsqueda
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:41)  
-- **Implicacion:** Monitorear cambios en CTR y rendimiento de anuncios con esta sección visible. Verificar si el label reduce confianza del usuario o si Google expande esta práctica a más verticales. Evaluar impacto en quality score si la relevancia de resúmenes IA es pobre. Sin cambios operativos inmediatos, pero requiere seguimiento.  
+- **Implicacion:** Revisar si tus anuncios de Shopping/Local muestran la sección 'What customers love' y evaluar impacto en CTR. La etiqueta explícita puede afectar percepción de autenticidad. Monitorear A/B en métricas de clics vs. impresiones en próximas 2-4 semanas.  
 - **Enlace:** https://www.seroundtable.com/google-ads-ai-generated-store-rating-reviews-41983.html  
 
-### Google Ads clarifica que broad keywords NO se priorizan como exact match al migrar a AI Max
+### Google Ads clarifica en documentación que broad keywords NO se priorizan como exact match en AI Max, incluso al migrar desde broad match
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:15)  
-- **Implicacion:** Si migraste a AI Max o desactivaste broad match, revisar estrategia de keyword prioritization en la plataforma para evitar gaps de cobertura. Google actualiza documentación pero no cambia comportamiento de sistema.  
-- **Deja obsoleto:** La asunción de que broad keywords se comportan como exact match dentro de AI Max prioritization  
+- **Implicacion:** Revisar estrategia de keyword matching en campañas AI Max: si migraste desde broad match, los broad keywords mantienen su comportamiento de matching original, no se convierten a exact. Requiere restructuración explícita de keywords si buscas precision de exact match en AI Max.  
+- **Deja obsoleto:** La asunción de que broad keywords se priorizan como exact en AI Max tras migración  
 - **Enlace:** https://www.seroundtable.com/google-ads-ai-max-keyword-prioritization-41988.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin contenido específico detallado
+### Recopilatorio diario de discusiones en foros de búsqueda
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-01 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-09-01-2026-41989.html  
 
-### Google actualiza documentación de Performance Max en support
+### Google actualiza documentación de Performance Max sin detalles públicos de cambios
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:31)  
-- **Implicacion:** ninguna - es un cambio de documentación sin especificar qué contenidos han cambiado. Sin acceso a comparativa (Wayback down), no hay datos operativos actionables  
+- **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-ads-pmax-help-doc-updated-41982.html  
 
-### Google prueba verificación de humanidad en resultados de búsqueda sin login requerido
+### Google prueba verificación de humanidad en SERP con botón 'Continue' sin login obligatorio
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:21)  
 - **Implicacion:** ninguna  
@@ -67,7 +66,7 @@ Escaneo automatico de 5 fuentes. 9 entradas en las ultimas 26h, 1 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/sept-2026-google-webmaster-report-41979.html  
 
-### Incidencia de estabilidad en Google Discover (caídas y lentitud)
+### Incidencia de estabilidad en Google Discover (carga lenta o no carga)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-01 07:04)  
 - **Implicacion:** ninguna  
