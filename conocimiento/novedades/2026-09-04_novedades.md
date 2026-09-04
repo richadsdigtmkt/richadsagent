@@ -13,41 +13,41 @@ Escaneo automatico de 5 fuentes. 6 entradas en las ultimas 26h, 1 de relevancia 
 
 ## Relevancia alta
 
-### Google Ads introduce label 'Under Re-Review' que limita servida de anuncios durante revisión
+### Google Ads introduce label 'Under Re-Review' que limita el alcance de anuncios elegibles durante la revisión
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-03 07:21)  
-- **Implicacion:** Monitorear estado de anuncios en cuenta; identificar cuáles están bajo re-review y en qué audiencias se limita servida; revisar políticas incumplidas que disparen re-reviews; documentar limitaciones de audiencia para reportar rendimiento impactado a clientes  
+- **Implicacion:** Monitorizar estado de anuncios en Google Ads. Si aparece este label, el anuncio sirve a audiencia limitada - revisar motivo del bloqueo parcial en detalles de la plataforma. Puede afectar a volumen de impresiones y conversiones sin cambios en bid/presupuesto.  
 - **Enlace:** https://www.seroundtable.com/google-ads-under-re-review-status-41976.html  
 
 ## Relevancia media
 
-### Contenido de publishers desaparece intermitentemente de Google News Tab pese a estar indexado en búsqueda general
+### Contenido de publishers desaparece esporádicamente de Google News Tab tras indexación
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-03 07:51)  
-- **Implicacion:** Monitorizar visibilidad en News Tab separadamente de Search results. Revisar Google Search Console (News tab reports) para detectar drops en indexación de noticias. Puede afectar tráfico de publishers con dependencia alta de News Tab. Sin patrón claro aún—evaluar si es bug temporal o cambio de algoritmo.  
+- **Implicacion:** Monitorizar presencia en News Tab de clientes (especialmente publishers/medios). Si contenido no aparece en 24-48h pese a estar indexado en búsqueda, no es delisting: comportamiento conocido de Google. Revisar Search Console > News para patrones. Sin acción correctiva clara por ahora.  
 - **Enlace:** https://www.seroundtable.com/google-news-tab-content-disappearing-42012.html  
 
-### Gemini 3.8 Flash en AI Mode de Google reduce citaciones y enlaces a fuentes
+### Gemini 3.8 Flash en AI Mode de Google cita menos fuentes y enlaces que versiones anteriores
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-03 07:41)  
-- **Implicacion:** Monitorizar impacto en tráfico de referencia desde AI Mode; revisar estrategia de contenido si parte del valor dependía de visibilidad en respuestas con citas; considerar si afecta a posicionamiento de featured snippets/AI Overview  
+- **Implicacion:** Revisar estrategia de visibilidad en AI Mode: si dependía de citations/links para tráfico orgánico desde respuestas generadas por IA, la disminución de referencias reduce oportunidad de clics. Monitorear CTR desde AI Mode en Google Search Console si está disponible.  
 - **Enlace:** https://www.seroundtable.com/google-ai-mode-gemini-38-no-links-42011.html  
 
-### Google Merchant Center expande AI Performance Insights a AU, CA, IN, NZ tras lanzamiento en US (julio 2026)
+### Google Merchant Center despliega AI Performance Insights en AU, CA, IN, NZ tras lanzamiento en US
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-03 07:31)  
-- **Implicacion:** Para clientes en estos mercados: revisar dashboard de Merchant Center para acceder a reportes de IA que analizan rendimiento de productos. Verificar si datos/insights coinciden con GA4 y ajustar estrategia de product feed si hay recomendaciones de optimización. No requiere acción inmediata si ya se monitorean métricas estándar.  
+- **Implicacion:** Monitorear disponibilidad en mercados DACH/España/UK. Si llega a estos mercados, evaluar si los insights de IA (análisis predictivo de rendimiento de productos) reemplazan o complementan reports manuales actuales. Posible cambio en workflows de optimización de shopping campaigns.  
 - **Enlace:** https://www.seroundtable.com/google-expands-merchant-center-ai-performance-insights-42005.html  
 
 ### Google Ads actualiza documentación sobre medición de conversiones telefónicas y offline
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-09-03 07:11)  
-- **Implicacion:** Revisar cambios en cómo reportar conversiones telefónicas y offline en Google Ads. Posible impacto en configuración de conversion tracking y atribución si hay nuevos parámetros o requisitos. Verificar si afecta a campañas activas con phone call tracking o integración de datos offline (CRM, tienda física).  
+- **Implicacion:** Revisar cambios en la documentación oficial para validar si hay nuevos requisitos de implementación, parámetros de tracking o cambios en cómo se reportan conversiones telefónicas/offline. Evaluar si las configuraciones actuales de clientes en DACH/España/UK requieren ajustes.  
 - **Enlace:** https://www.seroundtable.com/google-ads-phone-call-offline-conversions-42000.html  
 
 ## Relevancia baja
 
-### Google esquiva por segunda vez orden de desintegración en sentencia antimonopolio
+### Google evita segunda orden de separación en caso antimonopolio
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-03 10:00)  
 - **Implicacion:** ninguna  
