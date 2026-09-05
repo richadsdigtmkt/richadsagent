@@ -13,57 +13,57 @@ Escaneo automatico de 5 fuentes. 10 entradas en las ultimas 26h, 0 de relevancia
 
 ## Relevancia media
 
-### Google prueba servir anuncios de búsqueda con match types restrictivos en modo AI
+### Google prueba servir anuncios de Search con match types restrictivos en AI Mode
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-04 14:50)  
-- **Implicacion:** Monitorizar si la prueba se expande a cuenta propia. Si se generaliza, los match types restrictivos (exact, phrase) podrían ser reemplazados/fusionados con lógica de IA. Preparar análisis de rendimiento por tipo de coincidencia ahora antes de posible cambio de comportamiento.  
+- **Implicacion:** Monitorear si la prueba se expande. Si se generaliza, podría limitar el control manual sobre match types en campañas con AI Mode activado. Revisar rendimiento de campañas en test si afecta a cuentas DACH/UK/Spain.  
 - **Enlace:** https://www.seroundtable.com/google-ads-serving-restrictive-match-types-ai-mode-42024.html  
 
-### Google mantiene monopolio ad tech sin ruptura regulatoria; expansión de AI Overviews y cambios en AdSense
-- **Area:** SEA  
+### Google mantiene dominio en ad tech sin ruptura antimonopolio; expansión de AI Overviews por defecto; cambios en impresiones de AdSense
+- **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-04 08:01)  
-- **Implicacion:** Monitorear impacto de AI Overviews en CTR de búsquedas (cambio en visibilidad de anuncios). Revisar cambios de impresiones en AdSense y ajustar estrategia de content. Sin ruptura monopolística = mantener dependencia de plataformas Google actual.  
+- **Implicacion:** Monitorizar expansión de AI Overviews en SERPs (pueden reducir CTR a sitios); revisar rendimiento de AdSense si hay cambios en conteo de impresiones; sin cambio operativo inmediato en SEA/GA4  
 - **Enlace:** https://www.seroundtable.com/video-09-04-2026-42015.html  
 
-### Google Business Profiles añade verificación por foto como quinto método
+### Google Business Profiles añade verificación por foto de negocio como quinto método
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-04 07:51)  
-- **Implicacion:** Clients con dificultad en verificación (postcard delays, sin acceso a teléfono/email) tienen alternativa. Revisar workflows de onboarding GBP para mencionar esta opción si hay bloqueos en métodos estándar.  
+- **Implicacion:** Ofrecer a clientes con dificultades en otros métodos (postcard, video call, phone, email) una opción más rápida de verificación. Revisar clientes en proceso de verificación estancados y probarles este nuevo canal.  
 - **Enlace:** https://www.seroundtable.com/google-business-profiles-business-photo-verification-42019.html  
 
-### Google expande Waze Ads a 42 países, incluyendo potencialmente mercados DACH/España/UK
+### Google expande Waze Ads a 42 países, incluyendo potencialmente DACH/España/UK
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-04 07:41)  
-- **Implicacion:** Revisar disponibilidad en mercados objetivo. Si está activo, evaluar Waze como canal de Performance Max. Verificar audiencias, conversión tracking y ROAS vs. búsqueda/maps. Requiere testing para determinar viabilidad en verticals específicos (retail, movilidad, QSR).  
+- **Implicacion:** Revisar disponibilidad en mercados clave del cliente. Si está disponible, evaluar integración en PMax campaigns existentes como canal de tráfico. Requiere testing de ROAS vs. Google Search/Display. Documentar en setup de cuenta si aplica.  
 - **Enlace:** https://www.seroundtable.com/google-expands-waze-ads-42018.html  
 
-### Google Ads prueba sitelinks colapsables por defecto con indicador de cantidad
+### Google Ads prueba sitelinks colapsables por defecto con indicador de expansión
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-04 07:31)  
-- **Implicacion:** Cambio en UX de extensiones de sitelinks en anuncios. Operativamente: monitorear si el CTR de sitelinks baja por efecto de colapso (menos visibilidad inicial), posible necesidad de reoptimizar orden/priorización de sitelinks más críticos. Actualmente en test, sin fecha de rollout general.  
+- **Implicacion:** Cambio en la visualización de extensiones de anuncios. Operativamente: monitorizar CTR en sitelinks durante el rollout, ajustar estrategia de orden/priorización de sitelinks (los primeros visibles sin expandir tendrán mejor rendimiento), revisar si la tasa de expansión justifica mantener muchos sitelinks o reducir a los de mayor relevancia  
 - **Enlace:** https://www.seroundtable.com/google-ads-collapsing-sitelinks-42014.html  
 
-### Google Ads re-notifica recomendaciones previamente descartadas por el anunciante
+### Google Ads re-notifica recomendaciones previamente descartadas en el panel de control
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-04 07:11)  
-- **Implicacion:** Gestión de ruido en consola. Aumentará el volumen de notificaciones. Requiere revisión periódica de dismissed recommendations para evitar que se acumulen alertas. Impacto principalmente en UX de la plataforma, no en rendimiento de campañas.  
+- **Implicacion:** Incremento de ruido en notificaciones del panel. Revisar si las recomendaciones descartadas siguen siendo irrelevantes para la estrategia (ej: Smart Bidding, Performance Max obligatorios). Puede requerir descarte recurrente si Google presiona sobre features no alineadas con la cuenta.  
 - **Enlace:** https://www.seroundtable.com/google-ads-dismissed-recommendations-42016.html  
 
-### OpenAI lanza ChatGPT Ads Manager con plugin de integración, mejoras de audiencias y soporte de product feeds
+### OpenAI lanza Ads Manager para ChatGPT con feed de productos, audiences personalizadas y opciones de optimización de conversiones
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-04 07:05)  
-- **Implicacion:** Evaluar si ChatGPT Ads es canal complementario viableRequiere product feeds para mostrar shopping results. Revisar opciones de audience targeting, budget pacing y conversion optimization cuando esté disponible en mercados DACH/España/UK. Integración técnica vía plugin podría automatizar setup inicial.  
+- **Implicacion:** Evaluar si ChatGPT Ads es canal relevante para clientes: requiere product feeds estructurados, testing de audience matching y conversion tracking. No es sustitutivo de Google Ads/Meta pero puede ser canal complementario si target usa ChatGPT intensivamente. Monitorear expansion de formatos y capacidades de pacing.  
 - **Enlace:** https://www.seroundtable.com/openai-chatgpt-ads-updates-42017.html  
 
 ## Relevancia baja
 
-### Posible bug en Google Job Search que reduce visibilidad de ofertas nuevas
+### Posible bug en Google Job Search limitando visibilidad de ofertas nuevas durante una semana
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-04 11:12)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-job-search-bug-42022.html  
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin detalles específicos
+### Recopilatorio diario de discusiones en foros de búsqueda sin detalle de cambios específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-04 10:00)  
 - **Implicacion:** ninguna  
