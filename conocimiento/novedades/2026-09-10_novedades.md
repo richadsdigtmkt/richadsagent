@@ -13,49 +13,48 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 2 de relevancia 
 
 ## Relevancia alta
 
-### Google Ads lanza Local Customer Optimization y Store Sales in Data Manager para retailers multi-ubicación
+### Google Ads lanza Local Customer Optimization y Store Sales en Data Manager para retailers multi-location
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-09 07:31)  
-- **Implicacion:** Nuevas capacidades de medición de ventas en tienda directamente en Google Ads. Requiere evaluar implementación en cuentas de clientes con múltiples locales (retail, restaurantes, servicios locales) para atribuir conversiones offline y optimizar presupuesto local. Necesita verificar disponibilidad en DACH/ES/UK y setup de feed de ubicaciones.  
-- **Deja obsoleto:** Potencialmente reduce dependencia de soluciones de tracking offline externas para medición de Store Sales, aunque complementa en lugar de reemplazar GA4  
+- **Implicacion:** Revisar si clientes con múltiples tiendas pueden implementar estas features para optimizar campañas locales y medir ventas en tienda. Requiere auditoría de configuración de Google Merchant Center y vinculación de datos de tienda. Potencial mejora en ROAS para campañas locales si está disponible en mercados DACH/España/UK.  
 - **Enlace:** https://www.seroundtable.com/google-ads-local-customer-optimization-store-sales-42045.html  
 
 ### Google AI Overviews ahora responde ~100% de People Also Ask (era 12% hace 14 meses)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-09 07:21)  
-- **Implicacion:** Revisar estrategia de palabras clave long-tail y featured snippets. El CTR desde SERP baja si la respuesta está en AI Overview. Priorizar posiciones 0-3 para capturar clicks antes de AI Overview. Auditar cobertura de intención de búsqueda en contenido.  
-- **Deja obsoleto:** Obsoleta la estrategia de optimizar solo para People Also Ask como driver de tráfico independiente. Obsoleta la asunción de que featured snippets garantizan visibilidad sin competencia de AI Overview.  
+- **Implicacion:** Revisar estrategia de contenido para People Also Ask: optimizar respuestas directas a preguntas relacionadas ya no garantiza posicionamiento en ese SERP element si AI Overview genera respuesta sin citar fuente. Evaluar impacto en CTR desde PAA y reorientar contenido hacia intenciones que generen tráfico directo (transaccionales, diferenciación, profundidad). Monitorear cambios en posicionamiento orgánico de contenido que se beneficiaba de presencia en PAA.  
+- **Deja obsoleto:** Optimización específica para aparecer en People Also Ask como driver de tráfico/visibilidad pierde valor si Google genera respuesta con AI sin necesidad de click a fuente.  
 - **Enlace:** https://www.seroundtable.com/ppa-ai-overviews-google-42047.html  
 
 ## Relevancia media
 
-### Google Merchant Center añade métricas de IA (search intent, search terms, atribución) al reporte de Performance Insights
+### Google Merchant Center añade métricas de IA: Search Intent, Search Terms y Attributes en Performance Insights
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-09 07:41)  
-- **Implicacion:** Revisar Google Merchant Center en regiones donde ya está disponible (julio+) para acceder a nuevas métricas de IA que identifican intención de búsqueda y atribución de conversiones. Relevante si gestiona shopping campaigns con feed dinámico. Potencial para optimizar bids y product groups basado en search intent.  
+- **Implicacion:** Revisar nuevas métricas en GMC AI Performance Insights (disponible desde julio, expansión en septiembre). Evaluar si estos datos de intención de búsqueda y atribuciones mejoran la optimización de feed y la estrategia de bidding en Shopping. Requiere acceso a la región correspondiente (DACH/España/UK).  
 - **Enlace:** https://www.seroundtable.com/google-merchant-center-ai-performance-new-42043.html  
 
-### Google actualiza requisitos de location assets en Google Ads con mejoras en documentación y troubleshooting
+### Google Ads actualiza requisitos de location assets con mejoras en terminología y troubleshooting
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-09-09 07:11)  
-- **Implicacion:** Revisar documentación actualizada de Google sobre requisitos de location assets si se usan en campañas; posibles cambios en validación de datos de ubicación que podrían afectar a campañas locales activas  
+- **Implicacion:** Revisar documentación oficial de Google sobre location assets; verificar que las ubicaciones en campañas activas cumplen con los nuevos requisitos; potencial necesidad de revalidar assets si hay cambios en criterios de aceptación  
 - **Enlace:** https://www.seroundtable.com/google-ads-location-asset-requirements-update-42046.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones de foros de búsqueda (SEO/SEA genérico sin detalles específicos)
+### Recopilatorio diario de foros de búsqueda sin detalles específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-09-09 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-09-09-2026-42052.html  
 
-### John Mueller reafirma que no hay respuestas absolutas en SEO, solo decisiones consistentes
+### John Mueller reitera que no siempre existe una única respuesta correcta en SEO, sino decisiones defendibles
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-09 07:51)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-no-absolute-right-seo-answer-42048.html  
 
-### Google Search Console reportó incorrecto estado de indexación durante una hora; ya resuelto
+### Google Search Console reportó un fallo temporal de indexación (ya resuelto)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-09 05:59)  
 - **Implicacion:** ninguna  
