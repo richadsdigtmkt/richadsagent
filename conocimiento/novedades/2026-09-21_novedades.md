@@ -19,13 +19,13 @@ Escaneo automatico de 5 fuentes. 3 entradas en las ultimas 26h, 0 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/yom-kippur-5787-42114.html  
 
-### Bug en Web Guide de Google Search: botón Classic Search no funciona
+### Bug en feature beta Web Guide de Google: botón 'Classic Search' no funciona
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-20 09:30)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-web-guide-bug-42124.html  
 
-### Google Search Console reporta datos de crawl incompletos el 15 de septiembre; Google suele restaurarlos
+### Google Search Console: falta un día de datos en Crawl Stats (15 de septiembre)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-09-20 07:55)  
 - **Implicacion:** ninguna  
