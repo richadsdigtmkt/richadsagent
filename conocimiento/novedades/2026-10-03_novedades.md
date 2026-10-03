@@ -13,68 +13,66 @@ Escaneo automatico de 5 fuentes. 10 entradas en las ultimas 26h, 1 de relevancia
 
 ## Relevancia alta
 
-### Google prueba parámetros de tracking en URLs de AI Overviews para diferenciar clics de IA vs búsqueda convencional
+### Google prueba parámetros de tracking en URLs de AI Overviews para diferenciar clics desde resúmenes IA vs resultados web
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:46)  
-- **Implicacion:** Si se implementa: revisar configuración de UTM y filtros en GA4/Analytics para identificar y segmentar tráfico proveniente de AI Overviews. Actualmente estos clics pueden estar mezclados con tráfico orgánico convencional sin diferenciación clara.  
-- **Deja obsoleto:** Potencialmente obsoleta la práctica de asumir que todo tráfico desde Google Search results es equivalente en origen y contexto de usuario  
+- **Implicacion:** Monitorear GA4/servidor de tracking: si se implementa, los clics desde AI Overviews llevarán parámetros UTM/tracking específicos (ej: utm_source=ai_overview). Requiere auditar reglas de filtrado GA4 y atribución de modelos para no descartar este tráfico como directo o no etiquetado. Validar que la plataforma de analytics captura correctamente estas URLs con parámetros.  
+- **Deja obsoleto:** La actual imposibilidad de diferenciar clics de AI Overviews en GA4 (ahora visibles como tráfico genérico de Google Search) quedará obsoleta si el tracking se generaliza  
 - **Enlace:** https://www.seroundtable.com/google-ai-overview-link-tracking-parameters-42219.html  
 
 ## Relevancia media
 
-### Impacto operativo del Google Spam Update de septiembre 2026 en dos fases detectadas
+### Google Spam Update septiembre 2026: impactos confirmados en dos oleadas durante la semana
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-02 08:01)  
-- **Implicacion:** Revisar visibilidad y rankings de clientes SEO en DACH/España/UK para identificar penalizaciones por spam. Analizar cambios en tráfico orgánico y posiciones desde finales de septiembre. Ajustar estrategia de contenido si hay afectación detectada.  
-- **Deja obsoleto:** Posiblemente estrategias de volumen de contenido de baja calidad o AI-generated sin revisión editorial  
+- **Implicacion:** Monitorear visibilidad orgánica y rankings en sitios clientes DACH/UK/ES durante septiembre-octubre. Revisar Search Console para cambios de posicionamiento correlacionados con actualizaciones de spam. Preparar análisis comparativo pre/post-update si hay drops significativos. Nota: el extracto no especifica criterios nuevos de spam, revisar fuentes oficiales de Google para detalles técnicos.  
 - **Enlace:** https://www.seroundtable.com/video-10-02-2026-42210.html  
 
-### Google Loyalty Customer Match añade modo IA (Gemini) y expande a más regiones
+### Google Loyalty Customer Match añade modo AI/Gemini y se expande a más regiones
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:51)  
-- **Implicacion:** Revisar eligibilidad de cuentas en Merchant Center para acceso a Loyalty Customer Match con IA. Potencial mejora en segmentación de audiencias leales si está disponible en mercados DACH/UK/España. Requiere verificación de rollout regional antes de implementar en estrategia de CRM+GA4.  
+- **Implicacion:** Revisar si los clientes en mercados DACH/España/UK pueden activar Loyalty Customer Match con IA. Si está disponible, evaluar ventaja competitiva vs. Customer Match estándar para campañas de retención. Requiere verificar cobertura regional específica en Merchant Center.  
 - **Enlace:** https://www.seroundtable.com/google-loyalty-customer-match-expands-42216.html  
 
-### Google LSA oculta números de teléfono por defecto, requiere hover o clic en botón 'Get phone number'
+### Google Local Service Ads oculta números de teléfono por defecto hasta hover
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:41)  
-- **Implicacion:** Revisar métricas de click-through en LSA: cambio de UX puede reducir conversiones directas por llamada. Validar si el número se muestra en vista móvil. Ajustar expectativas de rendimiento en cuentas LSA existentes.  
+- **Implicacion:** Verificar si esta implementación afecta CTR y conversiones en cuentas LSA activas. Posible necesidad de ajustar estrategia de call tracking si el número se revela solo tras interacción. Monitorizar si cambia el comportamiento de usuarios en mobile donde el hover puede no funcionar igual.  
 - **Enlace:** https://www.seroundtable.com/google-local-service-ads-hides-phone-number-42207.html  
 
-### Google Ads no muestra imágenes en carrusel de Shopping (posible bug o test)
+### Google Ads Sponsored Products: imágenes ausentes en carrusel de resultados (potencial bug o test)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:21)  
-- **Implicacion:** Monitorear si el cambio se generaliza. Si se confirma como feature, revisar CTR y rendimiento de campañas Shopping. Las imágenes son drivers de CTR en Shopping, potencial impacto negativo en conversiones si se mantiene. Preparar análisis comparativo antes/después si afecta a cuentas gestionadas.  
+- **Implicacion:** Monitorear si es bug o rollout de test. Si es cambio permanente, afecta CTR en Shopping ads (las imágenes son factor clave de engagement). Revisar métricas de click-through rate en próximos días. Sin confirmación oficial, no hay acción inmediata.  
 - **Enlace:** https://www.seroundtable.com/google-sponsored-products-results-missing-images-42213.html  
 
-### Google prueba formato Sitelinks en AI Mode de Google Search
+### Google prueba formato Sitelinks en Google AI Mode para optimizar CTR en anuncios
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:11)  
-- **Implicacion:** Monitorizar rendimiento de anuncios en AI Mode vs búsqueda tradicional. Posible necesidad de ajustar estrategia de extensiones de anuncios si AI Mode genera tráfico significativo. Revisar CTR de sitelinks en este formato experimental.  
+- **Implicacion:** Monitorizar rendimiento de Sitelinks en AI Mode vs búsqueda estándar. Posible necesidad de ajustar estrategia de extensiones si AI Mode genera tráfico significativo. Requiere seguimiento en cuentas con volumen en mercados DACH/ES/UK  
 - **Enlace:** https://www.seroundtable.com/google-ads-sitelinks-ai-mode-42206.html  
 
-### Google Ads relaja la política de nombre de negocio: permite usar nombres diferentes al dominio de destino en casos específicos
+### Google Ads flexibiliza la política de nombre de negocio: permite usar nombres diferentes al dominio de destino en casos específicos
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:05)  
-- **Implicacion:** Revisar cuentas con discrepancias nombre-dominio para evaluar si califican en las 3 excepciones permitidas. Verificar si esta flexibilidad aplica a clientes DACH/Spain/UK y qué casos específicos cubre Google (información incompleta en la fuente). Requiere validación de marca verificada.  
+- **Implicacion:** Revisar si cuentas actuales usan nombre de negocio que no coincide con dominio. Si aplica a los 3 casos permitidos (sin detalles públicos aún), solicitar excepción a Google. Requiere verificación de marca directa. Impacto bajo si ya cumplen política actual; revisar cuando Google publique casos específicos permitidos  
 - **Enlace:** https://www.seroundtable.com/google-ads-business-name-policy-42214.html  
 
-### Google actualiza guía de contenido útil con nuevas secciones sobre contenido principal y criterios de evaluación
+### Google actualiza documentación sobre contenido útil con nuevas secciones sobre contenido principal y evaluación de calidad
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-02 06:00)  
-- **Implicacion:** Revisar estrategia de contenido: asegurar que el contenido principal (no secundario/navegacional) es el foco de optimización. Alinear con criterios explícitos de Google sobre qué consideran main content en evaluación de calidad. Impacta auditorías SEO y brief de contenido.  
-- **Deja obsoleto:** Práctica de optimizar principalmente metadatos/estructura sobre contenido principal: Google enfatiza ahora que main content es crítico en evaluación de Quality Raters.  
+- **Implicacion:** Revisar criterios de evaluación de contenido principal según nuevos estándares de Google. Ajustar auditorías SEO para validar que el contenido principal (no secundario/navegacional) cumple con los nuevos requisitos de calidad definidos por los raters de Google. Relevante para estrategia de contenido pero no implica cambios técnicos inmediatos.  
 - **Enlace:** https://www.seroundtable.com/google-helpful-content-main-content-and-eot-sa-42218.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin especificar contenido
+### Recopilatorio diario de discusiones en foros de búsqueda
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-02 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-10-02-2026-42220.html  
 
-### Bing prueba sección 'Recommended by' en resultados de productos con enlaces a retailers
+### Bing prueba sección 'Recommended by' en resultados de productos con enlaces a retailers externos
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-02 07:31)  
 - **Implicacion:** ninguna  
