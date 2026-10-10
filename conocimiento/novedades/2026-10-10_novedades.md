@@ -13,24 +13,24 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google completa su spam update de septiembre 2026 (fase 3/3) e incrementa manual actions
+### Google spam update de septiembre 2026 completado en tres fases; posible incremento de manual actions
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-09 08:01)  
-- **Implicacion:** Auditar sitios web propios y de clientes para detectar penalizaciones manuales; revisar compliance con directrices anti-spam de Google; potencial impacto en posicionamiento orgánico de dominios afectados  
+- **Implicacion:** Revisar sitios propios y de clientes para detectar manual penalties en Search Console. Auditar contenido y enlaces contra criterios de spam actualizado. Monitorizar drop de tráfico que coincida con dates de rollout  
 - **Enlace:** https://www.seroundtable.com/video-10-09-2026-42263.html  
 
-### Google Ads permite previsualizar assets de texto generados por IA en campañas Performance Max
+### Google Ads añade preview de assets de texto generados por IA en campañas Performance Max
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-09 07:51)  
-- **Implicacion:** Revisar previamente los textos generados por IA antes de activar Performance Max en cuentas activas. Útil para validar coherencia de marca y detectar desviaciones de messaging antes de que se sirvan en vivo.  
+- **Implicacion:** Permite visualizar antes de lanzar cómo Google AI genera variaciones de texto en anuncios. Operativamente: revisar previews para validar calidad de outputs antes de activar, ajustar seed text si los resultados no son óptimos. Recomendable testar en cuenta de prueba primero.  
 - **Enlace:** https://www.seroundtable.com/google-ads-text-customization-asset-previews-42264.html  
 
 ## Relevancia baja
 
-### Recap diario de foros de búsqueda sin detalles específicos de cambios
-- **Area:** General  
+### Recopilatorio de foro de búsqueda sin detalles específicos del cambio
+- **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-09 10:00)  
-- **Implicacion:** ninguna  
+- **Implicacion:** ninguna - el extracto no proporciona información suficiente sobre qué es el 'UGC fresh data program' ni cómo afecta operativamente  
 - **Enlace:** https://www.seroundtable.com/recap-10-09-2026-42266.html  
 
 ### Bing prueba eliminar bordes visuales en local pack
@@ -39,14 +39,14 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/bing-local-pack-without-borders-42257.html  
 
-### Google rediseña la interfaz de Reader Revenue Manager y añade referencias a AI Mode, AI Overviews y Gemini
+### Google rediseña la página de inicio de Reader Revenue Manager con integración de AI Overviews y Gemini
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-09 07:31)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-updates-reader-revenue-manager-42261.html  
 
-### Bing prueba separadores de línea atenuados en SERP
-- **Area:** SEO  
+### Bing prueba separadores visuales atenuados en resultados de búsqueda
+- **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-09 07:21)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/bing-faded-line-separators-42192.html  
