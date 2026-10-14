@@ -13,68 +13,67 @@ Escaneo automatico de 5 fuentes. 12 entradas en las ultimas 26h, 1 de relevancia
 
 ## Relevancia alta
 
-### Google actualiza guía de Data Strength con énfasis en first-party data e identifiers
+### Google actualiza guía de Data Strength en Ads con énfasis en first-party data e identifiers
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:05)  
-- **Implicacion:** Revisar y ajustar estrategia de recogida de datos en GA4/Google Ads: priorizar first-party data collection, validar configuración de Data Manager, evaluar adopción de AI-powered campaigns (Performance Max, Smart Bidding). Requiere auditoría de implementación actual.  
-- **Deja obsoleto:** Enfoque anterior basado en cookies de terceros como fuente principal de data para segmentación y modelos predictivos  
+- **Implicacion:** Revisar configuración de Data Manager, aumentar envío de first-party data a Google Ads, evaluar adopción de AI-powered campaigns (Performance Max, Smart Bidding). Riesgo de rendimiento subóptimo si no se alinea con nuevas prácticas recomendadas.  
+- **Deja obsoleto:** Enfoque previo de data minimalista o dependencia exclusiva de datos de conversión de Google pierde efectividad según nuevos estándares  
 - **Enlace:** https://www.seroundtable.com/google-ads-data-strength-best-practices-42282.html  
 
 ## Relevancia media
 
-### Google lanza actualizaciones de medición y ROI en Demand Gen (YouTube) para octubre 2026
+### Google Ads lanza actualizaciones de medición en Demand Gen (octubre 2026)
 - **Area:** SEA  
 - **Fuente:** Google Ads & Commerce Blog (2026-10-13 16:00)  
-- **Implicacion:** Revisar nuevas capacidades de tracking en campañas Demand Gen; evaluar si mejoras en medición impactan estrategia de atribución actual y configuración de conversiones  
+- **Implicacion:** Revisar nuevas métricas/capacidades de tracking disponibles en Demand Gen; evaluar si mejoran precisión de atribución de conversiones vs. configuración actual  
 - **Enlace:** https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/  
 
-### Google publica directrices sobre indexación, crawling y ranking de PDFs, incluyendo límites de archivo y procesamiento de enlaces
+### Google publica orientaciones sobre indexación, crawling y ranking de PDFs en Search y AI Search
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 15:27)  
-- **Implicacion:** Revisar estrategia de distribución de contenido en PDF: verificar si archivos grandes superan límites de Google, asegurar que PDFs con valor SEO tengan versiones HTML equivalentes, confirmar que enlaces internos en PDFs se rastrean correctamente, y evaluar si PDFs técnicos/catálogos deben priorizarse en HTML para mejor ranking  
+- **Implicacion:** Revisar estrategia de PDFs en activos SEO: verificar límites de tamaño de archivo, estructura de links internos en PDFs, optimización de imágenes embebidas y formato de contenido para asegurar indexación correcta. Aplicable si usas PDFs como activos principales (whitepapers, documentación técnica, reportes).  
 - **Enlace:** https://www.seroundtable.com/google-search-on-pdfs-42291.html  
 
-### Bing Webmaster Tools añade 'Topics Portfolio' en AI Reports para analizar distribución temática y competencia por tema
+### Bing Webmaster Tools añade Topics Portfolio en AI Reports para visualizar distribución temática y competitividad
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 11:59)  
-- **Implicacion:** Revisar el nuevo reporte en BWTs si trabajas clientes con presencia en Bing. Útil para identificar gaps temáticos y oportunidades de contenido, pero aplica principalmente a mercados donde Bing tiene cuota significativa (Alemania, UK tienen ~10-15%). Acción: auditar temas actuales vs. demanda de Bing si es cliente con presencia Bing relevante.  
+- **Implicacion:** Revisar Topics Portfolio en BWTs para mercados donde Bing tiene relevancia (especialmente UK y DACH). Util para identificar gaps temáticos y oportunidades de contenido, pero impacto limitado si tu SEO está orientado a Google (que no ofrece equivalente público)  
 - **Enlace:** https://www.seroundtable.com/topics-portfolio-bing-webmaster-tools-42288.html  
 
-### Google mostrando dominio antiguo 4 meses después de migración completada e indexada
+### Google muestra dominio antiguo 4 meses después de migración completada y indexada
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:43)  
-- **Implicacion:** Monitorizar migraciones de dominio más allá de los 3 meses habituales. Si ocurre: revisar canonicals, redirects 301, y cobertura en GSC. Puede indicar issue puntual de crawl o señal de confianza débil en nuevo dominio. Documentar el caso para escalada a Google si se reproduce.  
+- **Implicacion:** Monitorizar migraciones de dominio más allá de los 3-4 meses habituales. Verificar en GSC que Google no vuelve a rastrear/indexar el dominio antiguo. Si ocurre, revisar redirects 301 y eliminar bloques de robots.txt en dominio viejo. Caso potencial de anomalía o comportamiento edge case.  
 - **Enlace:** https://www.seroundtable.com/google-search-old-domain-42279.html  
 
-### Google permite ahora anuncios de productos farmacéuticos en AI Mode y AI Overviews
+### Google expande anuncios de productos farmacéuticos en AI Mode y AI Overviews
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:41)  
-- **Implicacion:** Si gestiona clientes del sector pharma: revisar políticas de elegibilidad actuales en Google Ads, validar que campañas cumplen requisitos regulatorios para pharma en AI surfaces (certificaciones, disclaimers). Potencial nuevo canal de tráfico pero con restricciones legales por mercado (DACH especialmente regulado). Monitorear rendimiento en estas nuevas superficies vs. resultados tradicionales.  
-- **Deja obsoleto:** Parcialmente: la exclusión de pharma en AI Overviews no es ya válida como restricción de canal para este vertical  
+- **Implicacion:** Revisar políticas de anuncios farmacéuticos en Google Ads; validar si las campañas actuales cumplen requisitos de certificación/compliance para aparecer en estas nuevas superficies; monitorear rendimiento de anuncios pharma en AI Overviews vs. resultados orgánicos tradicionales  
 - **Enlace:** https://www.seroundtable.com/google-ads-drugs-ai-mode-ai-overviews-42277.html  
 
-### Google busca líder UX para transformar Discover en experiencia de concierge hiperpersonalizada
-- **Area:** General  
+### Google busca rediseñar Discover como experiencia de recomendación proactiva e hiperpersonalizada
+- **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:31)  
-- **Implicacion:** Monitorear evolución de Discover como canal de tráfico. Si Google prioriza personalización extrema sobre contenido descubierto, los criterios de eligibilidad en Discover pueden cambiar. Revisar métricas de CTR/conversión desde Discover en GA4 en próximos trimestres para detectar cambios en comportamiento de feed.  
+- **Implicacion:** Monitorizar evolución de Discover como canal de tráfico. Potencial impacto en estrategia de visibilidad: si Discover evoluciona hacia recomendaciones más cerradas/personalizadas, menos relevancia para SEO tradicional. Recomendación: comenzar a testear presencia en Discover y analizar su peso en GA4 para clientes relevantes (content/retail).  
 - **Enlace:** https://www.seroundtable.com/google-discover-hyper-personalized-concierge-experience-42276.html  
 
-### Bug en Google Merchant Center: videos atrapados en estado 'preview processing', impidiendo visualización dinámica en Search y otros surfaces
+### Error en Google Merchant Center: vídeos atrapados en estado 'preview processing', sin reproducción en listados
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:21)  
-- **Implicacion:** Revisar cuentas Merchant Center con videos de productos. Si hay videos stuck en preview processing, reportar a Google Support. Mientras persista el bug, los videos no se mostrarán correctamente en listados de Search, afectando CTR y conversión en campañas Shopping. Implementar workaround: resubir videos o cambiar a formato image/carousel mientras se resuelve.  
+- **Implicacion:** Revisar feed de productos con vídeos en clientes. Si están afectados: monitorizar resolución del bug en GMC, considerar retirada temporal de vídeos del feed si impacta CTR/conversiones. Validar que vídeos pasan a estado 'approved' correctamente.  
 - **Enlace:** https://www.seroundtable.com/google-merchant-center-videos-in-preview-processing-42285.html  
 
-### Bug en el date picker del Performance Report de GSC: fechas bloqueadas en 1969
+### Bug en GSC: date picker del Performance Report bloqueado en fecha 1969-12-31
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:16)  
-- **Implicacion:** Afecta a acceso de datos de rendimiento en GSC. Verificar si el bug está activo en tu cuenta; si lo está, usar filtros alternativos o acceder a datos vía GSC API. Comunicar al cliente si hay reportes pendientes que dependen de este rango de fechas.  
+- **Implicacion:** Verificar si afecta acceso a datos de rendimiento SEO en GSC. Si está generalizado, usar API de GSC o exportar datos históricos como workaround hasta que Google corrija. Monitorear si Google comunica timeline de fix.  
 - **Enlace:** https://www.seroundtable.com/google-search-console-performance-report-date-picker-broken-42286.html  
 
-### Google añade atributos dietéticos (sin gluten, sin lácteos, halal, kosher) a Google Business Profiles
+### Google añade atributos dietéticos (gluten-free, dairy-free, halal, kosher) en Google Business Profiles
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-13 07:11)  
-- **Implicacion:** Revisar y completar estos nuevos campos en GBP de clientes de restauración. Los atributos dietéticos mejoran relevancia local en búsquedas específicas (ej: 'restaurante sin gluten cerca de mí'). Afecta a estrategia local SEO para verticales F&B.  
+- **Implicacion:** Revisar y completar estos nuevos atributos en GBP de clientes restaurantes/F&B en DACH/España/UK para mejorar relevancia en búsquedas locales. Impacta CTR en local pack si la audiencia busca estas dietas específicas.  
 - **Enlace:** https://www.seroundtable.com/google-business-profiles-dietary-attributes-42281.html  
 
 ## Relevancia baja
@@ -85,7 +84,7 @@ Escaneo automatico de 5 fuentes. 12 entradas en las ultimas 26h, 1 de relevancia
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-ai-mode-gemini-4-argon-42289.html  
 
-### Recopilatorio diario de discusiones en foros de búsqueda
+### Recopilatorio diario de discusiones de foros de búsqueda sin detalles específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-13 10:00)  
 - **Implicacion:** ninguna  
