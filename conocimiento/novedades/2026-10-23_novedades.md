@@ -13,36 +13,37 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 1 de relevancia 
 
 ## Relevancia alta
 
-### Google Ads expande Customer Lifecycle Goals: High Value Mode en Shopping, mejora Retention Goals y añade multiplicadores de porcentaje
+### Google Ads expande Customer Lifecycle Goals: Value Mode en Shopping, retargeting goals y multiplicadores porcentuales
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:30)  
-- **Implicacion:** Revisar estrategia de puja en Shopping campaigns: High Value Mode ahora disponible para optimizar por valor de cliente. Evaluar activation de Retention Goals si no está activo. Testar multiplicadores de porcentaje para ajustar bids por segmentos de valor en periodos estacionales (pre-holiday).  
-- **Deja obsoleto:** Parcialmente: estrategias de puja manual por valor en Shopping campaigns quedan menos competitivas frente a automatización de High Value Mode.  
+- **Implicacion:** Revisar estrategia de Shopping Campaigns: activar High Value Mode si el objetivo es maximizar valor de cliente recurrente. Evaluar Retention Goals para campañas de retargeting. Configurar multiplicadores de puja por porcentaje de valor esperado del cliente. Requiere auditoría de configuración en todas las cuentas con Shopping activo.  
+- **Deja obsoleto:** Parcialmente: enfoque anterior de optimizar solo por ROAS en Shopping queda complementado (no reemplazado) por optimización de lifetime value. Las estrategias basadas en puja manual de Shopping no se vuelven obsoletas, pero pierden potencial de optimización.  
 - **Enlace:** https://www.seroundtable.com/google-ads-customer-lifecycle-goals-update-42358.html  
 
 ## Relevancia media
 
-### Google lanza Google Business Home, nueva interfaz centralizada para gestionar Google Business Profiles (en beta)
+### Google lanza Google Business Home, nueva interfaz beta para gestionar Google Business Profiles
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-22 10:42)  
-- **Implicacion:** Monitorizar acceso a beta y evaluar migración de flujos de gestión de perfiles (horarios, fotos, posts, reviews) cuando salga de beta. Potencial cambio en UX de herramientas de gestión local.  
+- **Implicacion:** Monitorear acceso a beta. Cuando se generalice, evaluar cambios en flujos de gestión de perfiles locales, optimización de fichas y sincronización de datos. Posible impacto en automatización de tareas rutinarias si la nueva interfaz altera endpoints o estructura de datos.  
 - **Enlace:** https://www.seroundtable.com/google-business-home-42363.html  
 
-### Google Ads integra herramienta de traducción nativa en consola de anunciante
+### Google Ads integra herramienta nativa de traducción de campañas en la consola
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:41)  
-- **Implicacion:** Permite traducir campañas directamente en la plataforma sin herramientas externas. Verificar calidad de traducción automática antes de activar en mercados DACH/ES/UK; evaluar si sustituye workflows actuales con agencias traductoras o herramientas de terceros según volumen de campañas multiidioma.  
+- **Implicacion:** Permite traducir campañas directamente en Google Ads sin herramientas externas. Reducir tiempo de setup para campañas multilingües, pero verificar calidad de traducciones automáticas antes de lanzar (riesgo de errores contextuales en textos publicitarios críticos). Testear por mercado DACH/ES/UK antes de escalar.  
+- **Deja obsoleto:** Parcialmente obsoletos workflows de copia manual o herramientas de traducción externas para replicar campañas entre idiomas  
 - **Enlace:** https://www.seroundtable.com/google-ads-translation-tool-42351.html  
 
-### Google Ads prueba mostrar atributos de producto dinámicamente en anuncios Shopping
+### Google Ads expande Shopping Ads con atributos de producto dinámicos en zona gris bajo el anuncio
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:11)  
-- **Implicacion:** Monitorizar el rollout en cuentas propias. Si se activa: revisar calidad de feed de productos (atributos relevantes) y ajustar estrategia de bid en función de qué atributos se muestran. Potencial impacto en CTR y conversión según relevancia percibida del atributo mostrado.  
+- **Implicacion:** Monitorear si el test se generaliza. Si se implementa, revisar: (1) relevancia de atributos mostrados vs. estrategia de producto, (2) impacto en CTR/conversión por cambio visual, (3) ajuste de bid strategy si cambia el rendimiento de inventario específico  
 - **Enlace:** https://www.seroundtable.com/google-ads-product-attributes-42354.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones en foros de búsqueda sin detalles específicos
+### Resumen diario de foros de búsqueda sin contenido específico detallado
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-22 10:00)  
 - **Implicacion:** ninguna  
@@ -51,16 +52,16 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 1 de relevancia 
 ### Google prueba reordenación de elementos en Knowledge Panel local (nombre, ratings, descripción, botones vs. fotos)
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:51)  
-- **Implicacion:** ninguna - es cambio visual de renderizado, no afecta criterios de indexación ni estrategia de optimización on-page  
+- **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-local-panel-layout-42356.html  
 
-### Estudios recientes cuestionan el ROI de inversión en visibilidad y búsqueda por IA frente a Google Search
+### Estudios señalan que AI Search genera tráfico marginal comparado con Google Search
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:21)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/ai-search-studies-42359.html  
 
-### Google extiende pausa de anuncios: ahora también bloquea a anunciantes rusos a nivel global
+### Google extiende pausa de anuncios: bloquea a anunciantes rusos a nivel global, no solo usuarios en Rusia
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-10-22 07:05)  
 - **Implicacion:** ninguna  
