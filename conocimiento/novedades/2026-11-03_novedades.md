@@ -13,51 +13,51 @@ Escaneo automatico de 5 fuentes. 8 entradas en las ultimas 26h, 0 de relevancia 
 
 ## Relevancia media
 
-### Google desplaza AI Overviews de keywords de marca a la columna derecha
+### Google desplaza AI Overviews de marca hacia columna derecha en SERPs
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-02 12:15)  
-- **Implicacion:** Monitorizar posición de AI Overview en SERPs de marca para evaluar impacto en CTR orgánico. Revisar si el movimiento a columna derecha reduce visibilidad y ajustar estrategia de keywords de marca en paid si es necesario.  
+- **Implicacion:** Monitorizar posicionamiento de contenido propio en brand searches; evaluar si el movimiento del AIO hacia derecha mejora o reduce CTR a propiedades owned. Revisar visibilidad de snippets de marca en posiciones principales.  
 - **Enlace:** https://www.seroundtable.com/google-ai-overviews-brands-right-42440.html  
 
-### Google completó actualización spam de septiembre 2026 en octubre; múltiples updates algorítmicos sin confirmar en espera del próximo core update
+### Google completó su actualización de spam de septiembre 2026 en octubre, con múltiples actualizaciones de algoritmo sin confirmar pendientes
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-02 07:51)  
-- **Implicacion:** Monitorizar volatilidad de rankings en clientes durante octubre-noviembre. Revisar penalizaciones de spam en propiedades afectadas. Preparar análisis de impacto cuando Google confirme oficial el próximo core update  
+- **Implicacion:** Revisar visibilidad SEO en propiedades afectadas por spam update; monitorear métricas de tráfico organico en DACH/España/UK para detectar impacto; prepararse para próximo core update con auditoría de contenido y E-E-A-T  
 - **Enlace:** https://www.seroundtable.com/november-2026-google-webmaster-report-42431.html  
 
-### Google Search Console no incluirá datos de clics ni queries en reportes AI
+### Google Search Console no incluirá datos de clicks ni queries en el reporte AI
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-02 07:41)  
-- **Implicacion:** Los análisis de rendimiento en GSC AI serán limitados. Seguirá siendo necesario exportar datos de clics/queries desde GSC clásico o usar GA4 para análisis detallado de keywords y CTR. No cambia workflows actuales pero confirma que GSC AI no reemplazará reportes tradicionales.  
+- **Implicacion:** El reporte AI de GSC tendrá capacidades limitadas. Seguirá siendo necesario acceder a la sección tradicional de Performance para análisis de clicks, CTR y queries. No hay cambio operativo inmediato, pero confirma que el AI reporting no reemplazará el análisis tradicional de GSC.  
 - **Enlace:** https://www.seroundtable.com/click-data-search-console-ai-reporting-42437.html  
 
-### Google Ads Strategists contactan con perfiles AI-generados sin verificación de identidad
-- **Area:** SEA  
-- **Fuente:** Search Engine Roundtable (2026-11-02 07:31)  
-- **Implicacion:** Validar identidad de contactos de Google antes de actuar sobre recomendaciones operativas. Riesgo de phishing o suplantación. Verificar domain @google.com y contactar directamente a Google Support. No asumir legitimidad por apariencia profesional del email.  
-- **Enlace:** https://www.seroundtable.com/google-ads-strategist-ai-fake-names-photos-42426.html  
-
-### Google Ads añade filtrado de promociones por estado (ofertas, expiradas, inválidas)
+### Google Ads añade filtrado de promociones por estado (ofertadas, expiradas, invalidadas)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-02 07:11)  
-- **Implicacion:** Mejora la gestión operativa de promociones: permite identificar rápidamente qué ofertas están activas, caducadas o rechazadas sin necesidad de auditoría manual. Util para cuentas con muchas promociones, pero es feature de optimización, no cambio estratégico.  
+- **Implicacion:** Mejora la visibilidad y gestión de promociones activas. Permite identificar rápidamente qué ofertas están vigentes vs. caducadas/rechazadas. Útil para auditorías periódicas de promociones y detección de rechazos no capturados. No cambia estrategia, pero optimiza operativa de mantenimiento.  
 - **Enlace:** https://www.seroundtable.com/google-ads-promotion-offers-42425.html  
 
 ## Relevancia baja
 
-### Google clarifica cómo bloquear pop-ups en resultados de búsqueda mediante robots.txt
+### Google documenta bloqueo de popups en robots.txt mediante JavaScript
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-03 07:05)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/google-robots-block-popups-42445.html  
 
-### Resumen diario de foros de búsqueda sin detalles específicos
+### Recopilatorio diario de foros de búsqueda sin detalles específicos de cambios de producto
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-11-02 10:00)  
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/recap-11-02-2026-42434.html  
 
-### Reddit confirma declive de tráfico desde Google Search; acción baja 33%
+### Google Ads Strategists utilizan perfiles AI-generados (nombres y fotos falsas) en comunicaciones con anunciantes
+- **Area:** General  
+- **Fuente:** Search Engine Roundtable (2026-11-02 07:31)  
+- **Implicacion:** ninguna  
+- **Enlace:** https://www.seroundtable.com/google-ads-strategist-ai-fake-names-photos-42426.html  
+
+### Reddit confirma declive de tráfico desde Google Search; caída de cotización bursátil
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-02 07:21)  
 - **Implicacion:** ninguna  
