@@ -13,62 +13,62 @@ Escaneo automatico de 5 fuentes. 10 entradas en las ultimas 26h, 1 de relevancia
 
 ## Relevancia alta
 
-### Google lanza Core Update de noviembre 2026 con volatilidad de rankings y nueva versión de Gemini integrada en Search
+### Google lanza Core Update de noviembre 2026 con Gemini 4 Hydrogen integrado en Search
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-13 08:01)  
-- **Implicacion:** Monitorizar volatilidad de posiciones en tracking de keywords (8-9 nov confirmados). Revisar contenido para alineación con criterios del update. Evaluar impacto en CTR y conversiones post-update. Potencial cambio en relevancia de featured snippets y resultados con IA Gemini 4 Hydrogen.  
-- **Deja obsoleto:** Prácticas de optimización basadas en versiones anteriores de Gemini (Carbon) pueden requerir ajuste si el algoritmo de ranking cambió significativamente.  
+- **Implicacion:** Monitorear volatilidad de rankings en clientes SEO durante rollout (estimado 1-2 semanas). Revisar posiciones de palabras clave críticas. Analizar cambios de CTR y tráfico orgánico en GA4. Potencialmente ajustar estrategia de contenido si hay cambios significativos en SERP features o relevancia de resultados con IA generativa.  
+- **Deja obsoleto:** Prácticas de optimización basadas exclusivamente en señales tradicionales (links, densidad de keywords) continúan perdiendo peso frente a comprensión semántica y contenido orientado a respuestas generativas.  
 - **Enlace:** https://www.seroundtable.com/video-11-13-2026-42523.html  
 
 ## Relevancia media
 
-### Google prueba eliminar el modo AI de la barra de búsqueda y la caja 'Ask anything' en AI Overviews
+### Google prueba eliminar AI Mode del search bar y la función 'Ask Anything' de AI Overviews
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-13 14:45)  
-- **Implicacion:** Monitorear si se consolida la eliminación. Si se confirma, reduce la relevancia de optimizar contenido para AI Mode (feature que no existiría). Mantener enfoque en AI Overviews tradicionales por ahora.  
+- **Implicacion:** Monitorear evolución de la UI de Search. Si se consolida, reduce superficie de CTR a AI Overviews frente a enlaces orgánicos. Revisar impacto en traffic orgánico en próximos meses si el cambio se expande a todos los usuarios.  
 - **Enlace:** https://www.seroundtable.com/google-dropping-ai-mode-again-42534.html  
 
 ### Google anuncia actualización de modelo Gemini 4 Hydrogen en Google Search
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-13 10:00)  
-- **Implicacion:** Monitorear cambios en SERP, CTR y posicionamientos en próximas semanas. Revisar estrategia de keywords y contenido SEO si hay cambios significativos en intención de búsqueda o calidad de resultados. Pendiente de detalles técnicos específicos.  
+- **Implicacion:** Monitorear cambios en resultados de búsqueda orgánica y comportamiento de snippets. Revisar posicionamientos y CTR en GA4/GSC en próximas 2-4 semanas. Posible necesidad de ajustar estrategia de contenido si cambian criterios de relevancia del algoritmo.  
 - **Enlace:** https://www.seroundtable.com/recap-11-13-2026-42531.html  
 
-### Yahoo Scout pagará a editores por contenido usado en respuestas AI a través de ILC (Internet Licensing Collective)
+### Yahoo Scout implementa pagos a publishers por contenido usado en respuestas AI a través de Internet Licensing Collective
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:51)  
-- **Implicacion:** Monitorear si otros plataformas (Google, Bing) adoptan modelos de licencia similar. Potencial impacto en estrategia de contenido si más plataformas requieren compensación. No afecta operativa inmediata de campañas.  
+- **Implicacion:** Monitorear si otros plataformas (Google, Bing) adoptan modelos similares de compensación. Potencial impacto en estrategia de content marketing y posicionamiento si la distribución de contenido en AI answers genera ingresos alternativos. Sin impacto inmediato en campañas SEA/GA4.  
 - **Enlace:** https://www.seroundtable.com/ilc-yahoo-42528.html  
 
-### Google reactiva la generación de imágenes por IA en Google Search después de pausa por controversia
+### Google reactiva generación de imágenes AI en Google Search después de pausa de 3 meses
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:42)  
-- **Implicacion:** Monitorear si la funcionalidad se expande. Si se generaliza, las imágenes generadas por IA competirán con resultados visuales orgánicos. Relevante para estrategias de image search y visual content, pero sin impacto directo en SEA/GA4 por ahora. Considerar si afecta a click-through rates en verticales visuales.  
+- **Implicacion:** Monitorear impacto en CTR hacia sitios de imágenes y contenido visual. Las AI Overviews generadas pueden reducir tráfico a galerías de imágenes propias. Revisar posicionamiento de imágenes en búsquedas relevantes para el cliente.  
 - **Enlace:** https://www.seroundtable.com/google-ai-overviews-ai-generated-images-back-42532.html  
 
-### Google Merchant Center prohibe fechas en títulos de promociones (sección redemption)
+### Google Merchant Center prohíbe fechas en títulos de promociones (sección redemption)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:41)  
-- **Implicacion:** Auditar y corregir títulos de promociones activas en GMC que contengan fechas en cualquier formato. Actualizar plantillas de feed para excluir fechas de la sección redemption. Validar cambios antes de resubmit.  
-- **Deja obsoleto:** Practica de incluir formatos de fecha en títulos de promociones (ej: '20% OFF until 31/12')  
+- **Implicacion:** Revisar y limpiar títulos de promociones activas en GMC que contengan fechas en cualquier formato. Implementar validación en flujos de feed para detectar y eliminar fechas antes de subida. Riesgo: rechazo de feed o desaprobación de productos.  
+- **Deja obsoleto:** Queda obsoleta la práctica de incluir fechas de expiración/validez en títulos de promociones de GMC  
 - **Enlace:** https://www.seroundtable.com/google-merchant-center-promotions-titles-date-42488.html  
 
-### Deal Ends annotation en Google Merchant Center sale de fase experimental y se desactiva en India
+### Google Merchant Center Deal Ends annotation sale de estado experimental; se desactiva en India
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:31)  
-- **Implicacion:** Si gestiona cuentas GMC en mercados DACH/España/UK: la anotación de fecha fin de oferta es ya estándar y debe implementarse si usa promociones con fecha límite. Si opera en India: esta funcionalidad deja de estar disponible, revisar estrategia de product feeds en ese mercado.  
+- **Implicacion:** Si tienes campañas Shopping en mercados DACH/España/UK con ofertas con fecha de fin, puedes usar Deal Ends annotation sin riesgo de cambios retroactivos. Verificar estado en India si tienes presencia allí; esta feature ya no está disponible.  
 - **Enlace:** https://www.seroundtable.com/google-merchant-center-deal-ends-annotation-removes-experimental-42522.html  
 
-### Google Ads actualiza documentación de Conversion Lift con nuevos requisitos técnicos y troubleshooting
+### Google Ads actualiza documentación de Conversion Lift con requisitos técnicos y troubleshooting mejorado
 - **Area:** Tracking  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:21)  
-- **Implicacion:** Revisar requirements técnicos actualizados si tienes studies de incrementalidad activos. Consultar guidance si encuentras problemas en setup. Impacto bajo si ya tienes estudios funcionando.  
+- **Implicacion:** Revisar documentación si tienes clientes con incrementality studies activos. Los cambios en requisitos técnicos pueden afectar validez de estudios en curso o nuevos setup. Requiere auditoría de implementaciones existentes.  
 - **Enlace:** https://www.seroundtable.com/google-ads-conversion-lift-set-up-doc-update-42530.html  
 
-### Google Shopping añade sección 'Highlighted on the web' en mobile para mostrar productos destacados en web
+### Google Shopping introduce sección 'Highlighted on the Web' en versión móvil
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-13 07:11)  
-- **Implicacion:** Monitorizar si esta sección favorece ciertos sellers/productos y ajustar estrategia de product feeds. Revisar si afecta visibilidad de anuncios Shopping en mobile. Posible necesidad de optimizar product data para aparecer en esta sección.  
+- **Implicacion:** Monitorizar si este nuevo placement afecta visibilidad de productos propios. Evaluar si hay oportunidad de posicionamiento en esta sección (requiere análisis de criterios de eligibilidad). Verificar impacto en CTR y conversiones de Shopping móvil en próximas semanas.  
 - **Enlace:** https://www.seroundtable.com/google-shopping-highlighted-on-the-web-42376.html  
 
 ## Relevancia baja
