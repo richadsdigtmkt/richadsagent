@@ -16,32 +16,32 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 ### Google November 2026 core update en curso; FBI alerta sobre SEO poisoning; Google Search Console API expandida
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-20 08:01)  
-- **Implicacion:** Monitorear impacto del core update en rankings de clientes (revisar GSC, posiciones, tráfico). Alertar a clientes sobre riesgos de SEO poisoning/malware en enlaces de terceros. Evaluar si nueva API de Search Analytics permite automatización mejorada de reporting.  
+- **Implicacion:** Monitorear impacto del core update en rankings de clientes (revisar GSC y traffic). Alertar clientes sobre riesgos de SEO poisoning/malware si tienen backlinks sospechosos. Revisar nueva Search Analytics API si se usa tracking personalizado.  
 - **Enlace:** https://www.seroundtable.com/video-11-20-2026-42577.html  
 
-### Google y ChatGPT muestran códigos de cupón directamente en resultados de búsqueda e IA, reduciendo clics a sitios de cupones
+### Google y ChatGPT muestran códigos de cupón directamente en resultados de búsqueda e IA, sin necesidad de ir a sitios de cupones
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-20 07:51)  
-- **Implicacion:** Monitorizar si tus ofertas/cupones aparecen en AI Overviews de Google. Riesgo: users obtienen códigos sin visitar tu landing. Oportunidad: optimizar structured data (promo schema) para aumentar visibilidad en AI responses. Revisar impacto en tráfico desde search a sitio en GA4.  
-- **Deja obsoleto:** Parcialmente: la estrategia de 'posicionarse en sitios de cupones como fuente de tráfico' pierde valor si los códigos se sirven directamente en SERP.  
+- **Implicacion:** Monitorizar si tus merchant feeds de promociones se indexan en AI Overviews de Google. Revisar estrategia de visibilidad de cupones: pueden perderse clicks en sitios de cupones intermediarios. Considerar optimizar estructuración de datos (schema.org) para descuentos si no está hecho.  
+- **Deja obsoleto:** Parcialmente: modelo de tráfico de sitios agregadores de cupones se degrada; relevancia de posicionamiento en SERP para queries de cupones disminuye si la respuesta está en AI Overview.  
 - **Enlace:** https://www.seroundtable.com/google-chatgpt-coupon-codes-42581.html  
 
-### Google Ads actualiza política de contenido sexual con ejemplos detallados de permitido/prohibido
+### Google Ads ha expandido y clarificado ejemplos de su política de contenido sexual con nuevas categorías (desnudez, desnudez parcial, merchandising sexual, entretenimiento sexual)
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-20 07:31)  
-- **Implicacion:** Revisar campañas con contenido sexual/nudez/merchandise sexual. Verificar que creatives y landing pages se ajusten a nuevos ejemplos. Riesgo de desaprobación de anuncios si no se alinean con clarificaciones. Revisar histórico de rechazos recientes que podrían ser reconsiderados o confirmados.  
-- **Deja obsoleto:** Interpretaciones previas de policy sexual content basadas en criterios antiguos; requiere re-evaluación de creatives existentes contra nuevos ejemplos  
+- **Implicacion:** Revisar campañas activas de categorías sensibles (adulto, fitness, moda) para alinearse con nuevos ejemplos prohibidos/permitidos. Riesgo de desaprobación si se incumplen. Requiere auditoría de creatives y landing pages.  
+- **Deja obsoleto:** La interpretación previa de la política (versión de octubre 2026) queda parcialmente obsoleta; los nuevos ejemplos pueden restringir o permitir casos grises anteriores  
 - **Enlace:** https://www.seroundtable.com/google-expands-sexual-content-advertising-policy-42548.html  
 
-### Microsoft Ads muestra etiqueta 'Made with AI' en anuncios con imágenes generadas por IA
+### Microsoft Ads muestra label 'Made with AI' en anuncios con imágenes generadas por IA
 - **Area:** SEA  
 - **Fuente:** Search Engine Roundtable (2026-11-20 07:21)  
-- **Implicacion:** Revisar creativas de anuncios en Microsoft Ads/Bing: si usan imágenes generadas con IA, aparecerá la etiqueta automáticamente. Evaluar impacto en CTR/conversiones y considerar estrategia creativa (imágenes propias vs. IA). Comunicar a clientes sobre esta etiquetación obligatoria.  
+- **Implicacion:** Revisar creativas con imágenes AI en campañas Microsoft Ads/Bing. El label es automático en ciertos formatos. Evaluar impacto en CTR y si requiere ajuste de estrategia creativa. Verificar en qué formatos/mercados (DACH, ES, UK) se despliega.  
 - **Enlace:** https://www.seroundtable.com/bing-ads-made-with-ai-label-42579.html  
 
 ## Relevancia baja
 
-### Recopilatorio diario de discusiones del foro de búsqueda
+### Recopilatorio diario de discusiones de foros de búsqueda sin detalles específicos
 - **Area:** General  
 - **Fuente:** Search Engine Roundtable (2026-11-20 10:00)  
 - **Implicacion:** ninguna  
@@ -53,7 +53,7 @@ Escaneo automatico de 5 fuentes. 7 entradas en las ultimas 26h, 0 de relevancia 
 - **Implicacion:** ninguna  
 - **Enlace:** https://www.seroundtable.com/card-design-on-chatgpt-42576.html  
 
-### ICANN aprueba el TLD .seo como nueva extensión de dominio genérica, pendiente de disponibilidad pública
+### ICANN aprueba el TLD .seo para registro público futuro, aún no disponible
 - **Area:** SEO  
 - **Fuente:** Search Engine Roundtable (2026-11-20 07:11)  
 - **Implicacion:** ninguna  
